@@ -46,7 +46,7 @@ ___
 ### Main script
 
 ```sh
-bash /path/to/gatk_pipeline.sh \
+bash /path/to/fastq2vcf.sh \
 -i /path/to/fastq/folder \
 -o /path/to/output/folder \
 -r /path/to/reference.fasta \
