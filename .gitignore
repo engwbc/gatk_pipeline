@@ -1,6 +1,5 @@
 gatk_pipeline.sh
 variant_recalibration.md
 benchmark.xlsx
-misc/pipeline-schematic.svg
 plot_graphs.ipynb
-misc/runtime_plot.png
+

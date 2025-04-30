@@ -1,0 +1,1434 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1180"
+   height="580"
+   viewBox="0 0 312.20833 153.45833"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="pipeline-schematic.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0255231"
+     inkscape:cx="699.15538"
+     inkscape:cy="329.10033"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1812" />
+  <defs
+     id="defs2">
+    <rect
+       x="955.60986"
+       y="39.047939"
+       width="177.95798"
+       height="20.914417"
+       id="rect9747" />
+    <rect
+       x="947.80896"
+       y="36.416183"
+       width="53.631165"
+       height="23.507227"
+       id="rect4680" />
+    <rect
+       x="846.39734"
+       y="47.972698"
+       width="68.22937"
+       height="20.242947"
+       id="rect3666" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3368"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="Arrow3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="6.9999995"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-6"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-0-5-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-8-6-8"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-0-5-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-8-6-2"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-0-5-2-4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-8-6-2-8"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-0-5-2-23"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-8-6-2-9"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-0-5-2-4-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-8-6-2-8-8"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-0-5-2-4-9-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-8-6-2-8-8-3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-0-5-2-4-9-9-1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-8-6-2-8-8-3-8"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-0-5-2-4-94"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-8-6-2-8-3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <rect
+       style="fill:none;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel"
+       id="rect677"
+       width="312.20834"
+       height="153.45833"
+       x="0"
+       y="0"
+       ry="2.4187393" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#999999;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+       id="rect788"
+       width="52.554054"
+       height="20"
+       x="8.0890207"
+       y="3.2935913"
+       ry="2.4187393" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:1.2, 0.600001;stroke-dashoffset:0"
+       id="rect9538"
+       width="125.56059"
+       height="98.610062"
+       x="180.95242"
+       y="0.95855504"
+       ry="1.5452754" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.475145;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Arrow3)"
+       d="M 34.366048,23.712188 V 34.440902"
+       id="path2508"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.475145;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Arrow3-9)"
+       d="M 34.445228,50.672368 V 61.401082"
+       id="path2508-2"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+       id="rect788-9"
+       width="65.383957"
+       height="30.360704"
+       x="1.7646848"
+       y="96.606758"
+       ry="2.4187393" />
+    <rect
+       style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+       id="rect788-9-8"
+       width="41.906101"
+       height="15.654797"
+       x="12.9544"
+       y="35.01757"
+       ry="2.4187393" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+       x="34.243057"
+       y="8.4016991"
+       id="text5763"><tspan
+         sodipodi:role="line"
+         id="tspan5761"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';fill:#000000;stroke:none;stroke-width:0.5"
+         x="34.243057"
+         y="8.4016991">Raw <tspan
+   style="font-weight:bold"
+   id="tspan9836">unmapped</tspan> reads</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle;white-space:pre;inline-size:62.3612;display:inline;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+       x="105.50056"
+       y="45.046356"
+       id="text5763-1"
+       transform="translate(-71.213123,57.959032)"><tspan
+         x="105.50056"
+         y="45.046356"
+         id="tspan3027"><tspan
+           style="font-weight:bold;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';stroke-width:0.5"
+           id="tspan3025">Map to reference
+</tspan></tspan><tspan
+         x="105.50056"
+         y="51.347168"
+         id="tspan3031"><tspan
+   style="font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';stroke-width:0.5"
+   id="tspan3029">(e.g. GRCh38) + Positional</tspan><tspan
+   y="51.347168"
+   id="tspan3033"> </tspan></tspan><tspan
+         x="105.50056"
+         y="57.64798"
+         id="tspan3037"><tspan
+           style="font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';stroke-width:0.5"
+           id="tspan3035">sorting</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle;white-space:pre;inline-size:41.446;display:inline;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+       x="109.27702"
+       y="16.768591"
+       id="text8358"
+       transform="translate(-74.693632,-1.4673383)"><tspan
+         x="109.27702"
+         y="16.768591"
+         id="tspan3041"><tspan
+   style="font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';stroke-width:0.5"
+   id="tspan3039">Input: 1 or more*</tspan><tspan
+   y="16.768591"
+   id="tspan3043"> </tspan></tspan><tspan
+         x="109.27702"
+         y="22.169281"
+         id="tspan3047"><tspan
+           style="font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';stroke-width:0.5"
+           id="tspan3045">gzipped FASTQ pairs</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+       x="147.77028"
+       y="21.701571"
+       id="text9840"><tspan
+         sodipodi:role="line"
+         id="tspan9838"
+         style="stroke-width:0.5"
+         x="147.77028"
+         y="21.701571" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+       x="35.225121"
+       y="122.89425"
+       id="text14304"><tspan
+         sodipodi:role="line"
+         id="tspan14302"
+         style="stroke-width:0.5"
+         x="35.225121"
+         y="122.89425">bwa 0.7.18, samtools 1.21</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:2.4, 0.600001;stroke-dashoffset:0"
+       x="120.09827"
+       y="65.77784"
+       id="text18076"><tspan
+         sodipodi:role="line"
+         id="tspan18074"
+         style="stroke:none;stroke-width:0.6"
+         x="120.09827"
+         y="65.77784" /></text>
+    <rect
+       style="fill:#ffe680;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+       id="rect788-2"
+       width="50"
+       height="20"
+       x="87.066902"
+       y="4.564774"
+       ry="2.4187393" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+       x="113.38489"
+       y="10.05917"
+       id="text5763-7"><tspan
+         sodipodi:role="line"
+         id="tspan5761-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';fill:#000000;stroke:none;stroke-width:0.5"
+         x="113.38489"
+         y="10.05917">Raw <tspan
+   style="font-weight:bold"
+   id="tspan9836-7">mapped</tspan> reads</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#80b3ff;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:2.4, 0.600001;stroke-dashoffset:0"
+       x="89.912445"
+       y="45.278725"
+       id="text25836"><tspan
+         sodipodi:role="line"
+         id="tspan25834"
+         style="fill:#80b3ff;fill-opacity:1;stroke-width:0.6"
+         x="89.912445"
+         y="45.278725" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:2.4, 0.600001;stroke-dashoffset:0"
+       x="33.820641"
+       y="40.043247"
+       id="text26116"><tspan
+         sodipodi:role="line"
+         id="tspan26114"
+         style="font-weight:bold;stroke-width:0.6"
+         x="33.820641"
+         y="40.043247">Read QC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+       x="33.939491"
+       y="47.031349"
+       id="text14304-6"><tspan
+         sodipodi:role="line"
+         id="tspan14302-0"
+         style="stroke-width:0.5"
+         x="33.939491"
+         y="47.031349">fastp 0.24.0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:44.8451;display:inline;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+       x="105.66043"
+       y="122.67814"
+       id="text14304-6-1"
+       transform="translate(6.212442,-105.90205)"><tspan
+         x="105.66043"
+         y="122.67814"
+         id="tspan3051"><tspan
+   style="stroke-width:0.5"
+   id="tspan3049">Intermediate output:</tspan><tspan
+   y="122.67814"
+   id="tspan3053"> </tspan></tspan><tspan
+         x="105.66043"
+         y="127.9698"
+         id="tspan3057"><tspan
+           style="stroke-width:0.5"
+           id="tspan3055">sorted.bam</tspan></tspan></text>
+    <g
+       id="g15114"
+       transform="translate(2.121603)">
+      <rect
+         style="fill:#ffe680;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect788-2-3"
+         width="50"
+         height="20"
+         x="7.3236156"
+         y="62.155846"
+         ry="2.4187393" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="32.184959"
+         y="67.307182"
+         id="text5763-7-7"><tspan
+           sodipodi:role="line"
+           id="tspan5761-5-9"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';fill:#000000;stroke:none;stroke-width:0.5"
+           x="32.184959"
+           y="67.307182">Filtered reads</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:47.4754;display:inline;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="105.66043"
+         y="122.67814"
+         id="text14304-6-1-6"
+         transform="translate(-73.35101,-49.385596)"><tspan
+           x="105.66043"
+           y="122.67814"
+           id="tspan3063"><tspan
+   style="stroke-width:0.5"
+   id="tspan3059">Intermediate</tspan> <tspan
+   style="stroke-width:0.5"
+   id="tspan3061">output:</tspan><tspan
+   y="122.67814"
+   id="tspan3065"> </tspan></tspan><tspan
+           x="105.66043"
+           y="127.9698"
+           id="tspan3069"><tspan
+             style="stroke-width:0.5"
+             id="tspan3067">qc.fastq</tspan></tspan></text>
+    </g>
+    <rect
+       style="fill:#ffe680;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+       id="rect788-2-3-1"
+       width="67.930885"
+       height="16.388042"
+       x="173.82367"
+       y="129.27528"
+       ry="2.4187393" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+       x="207.45695"
+       y="135.45862"
+       id="text5763-7-7-6"><tspan
+         id="tspan5761-5-9-4"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';fill:#000000;stroke:none;stroke-width:0.5"
+         x="207.45695"
+         y="135.45862"
+         sodipodi:role="line">Variant calls (SNPs &amp; Indels)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:47.4754;display:inline;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+       x="105.66043"
+       y="122.67814"
+       id="text14304-6-1-6-8"
+       transform="translate(101.92099,19.573182)"><tspan
+         x="105.66043"
+         y="122.67814"
+         id="tspan3071">Output: vcf</tspan></text>
+    <g
+       id="g774"
+       transform="translate(3.3539793,-5.2026739)">
+      <rect
+         style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect788-9-8-6"
+         width="41.906101"
+         height="15.654797"
+         x="87.75988"
+         y="40.831776"
+         ry="2.4187393" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:2.4, 0.600001;stroke-dashoffset:0"
+         x="108.62613"
+         y="45.857441"
+         id="text26116-5"><tspan
+           sodipodi:role="line"
+           id="tspan26114-6"
+           style="font-weight:bold;stroke-width:0.6"
+           x="108.62613"
+           y="45.857441">MarkDuplicates</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="108.70052"
+         y="52.845554"
+         id="text14304-6-3"><tspan
+           sodipodi:role="line"
+           id="tspan14302-0-1"
+           style="stroke-width:0.5"
+           x="108.70052"
+           y="52.845554">gatk4 4.6.1.0</tspan></text>
+    </g>
+    <g
+       id="g774-0"
+       transform="translate(52.940489,-33.567659)">
+      <rect
+         style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect788-9-8-6-3"
+         width="32.967873"
+         height="15.415138"
+         x="88.307175"
+         y="40.967632"
+         ry="2.4187393" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:2.4, 0.600001;stroke-dashoffset:0"
+         x="104.74667"
+         y="45.857441"
+         id="text26116-5-1"><tspan
+           sodipodi:role="line"
+           id="tspan26114-6-4"
+           style="font-weight:bold;stroke-width:0.6"
+           x="104.74667"
+           y="45.857441">SplitIntervals</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="104.77871"
+         y="53.126648"
+         id="text14304-6-3-6"><tspan
+           sodipodi:role="line"
+           id="tspan14302-0-1-9"
+           style="stroke-width:0.5"
+           x="104.77871"
+           y="53.126648">gatk4 4.6.1.0</tspan></text>
+    </g>
+    <g
+       id="g767"
+       transform="translate(3.3539793,-5.6066158)">
+      <rect
+         style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect788-9-8-6-2"
+         width="42.206108"
+         height="18.363783"
+         x="87.759872"
+         y="68.221375"
+         ry="2.4187393" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:42.8162;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:2.4, 0.600001;stroke-dashoffset:0"
+         x="104.92413"
+         y="202.09464"
+         id="text26116-5-0"
+         transform="translate(4.0135078,-128.84759)"><tspan
+           x="104.92413"
+           y="202.09464"
+           id="tspan3075"><tspan
+             style="font-weight:bold;stroke-width:0.6"
+             id="tspan3073">BaseRecalibrator +
+</tspan></tspan><tspan
+           x="104.92413"
+           y="207.3863"
+           id="tspan3079"><tspan
+             style="font-weight:bold;stroke-width:0.6"
+             id="tspan3077">ApplyBQSR</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="108.85052"
+         y="84.858627"
+         id="text14304-6-3-4"><tspan
+           sodipodi:role="line"
+           id="tspan14302-0-1-0"
+           style="stroke-width:0.5"
+           x="108.85052"
+           y="84.858627">gatk4 4.6.1.0</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.475145;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Arrow3-0-5-5)"
+       d="m 112.0669,24.564773 v 10.33992"
+       id="path2508-4-6-1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.475145;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Arrow3-0-5-2)"
+       d="M 112.0669,51.520074 V 61.85999"
+       id="path2508-4-6-8"
+       sodipodi:nodetypes="cc" />
+    <g
+       id="g57087"
+       transform="translate(102.51619,-248.29838)">
+      <rect
+         style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect788-9-8-6-2-2"
+         width="43.211418"
+         height="15.7838"
+         x="84.169876"
+         y="256.08847"
+         ry="2.4187393" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:42.8162;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:2.4, 0.600001;stroke-dashoffset:0"
+         x="104.92413"
+         y="202.09464"
+         id="text26116-5-0-3"
+         transform="translate(0.42351322,59.019488)"><tspan
+           x="104.92413"
+           y="202.09464"
+           id="tspan3083"><tspan
+             style="font-weight:bold"
+             id="tspan3081">HaplotypeCaller</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="105.26053"
+         y="268.40399"
+         id="text14304-6-3-4-4"><tspan
+           sodipodi:role="line"
+           id="tspan14302-0-1-0-8"
+           style="stroke-width:0.5"
+           x="105.26053"
+           y="268.40399">gatk4 4.6.1.0</tspan></text>
+    </g>
+    <g
+       id="g57087-9"
+       transform="translate(102.01353,-219.47115)">
+      <rect
+         style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect788-9-8-6-2-2-6"
+         width="43.211418"
+         height="15.7838"
+         x="84.169876"
+         y="256.08847"
+         ry="2.4187393" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:42.8162;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:2.4, 0.600001;stroke-dashoffset:0"
+         x="104.92413"
+         y="202.09464"
+         id="text26116-5-0-3-5"
+         transform="translate(0.42351322,59.019488)"><tspan
+           x="104.92413"
+           y="202.09464"
+           id="tspan3087"><tspan
+             style="font-weight:bold"
+             id="tspan3085">GenomicsDBImport</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="105.26053"
+         y="268.40399"
+         id="text14304-6-3-4-4-6"><tspan
+           sodipodi:role="line"
+           id="tspan14302-0-1-0-8-5"
+           style="stroke-width:0.5"
+           x="105.26053"
+           y="268.40399">gatk4 4.6.1.0</tspan></text>
+    </g>
+    <g
+       id="g57087-9-0"
+       transform="translate(102.01353,-182.93687)">
+      <rect
+         style="fill:#80b3ff;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect788-9-8-6-2-2-6-0"
+         width="43.211418"
+         height="15.7838"
+         x="84.169876"
+         y="256.08847"
+         ry="2.4187393" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:42.8162;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:2.4, 0.600001;stroke-dashoffset:0"
+         x="104.92413"
+         y="202.09464"
+         id="text26116-5-0-3-5-5"
+         transform="translate(0.42351322,59.019488)"><tspan
+           x="104.92413"
+           y="202.09464"
+           id="tspan3091"><tspan
+             style="font-weight:bold"
+             id="tspan3089">GenotypeGVCFs</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="105.26053"
+         y="268.40399"
+         id="text14304-6-3-4-4-6-4"><tspan
+           sodipodi:role="line"
+           id="tspan14302-0-1-0-8-5-8"
+           style="stroke-width:0.5"
+           x="105.26053"
+           y="268.40399">gatk4 4.6.1.0</tspan></text>
+    </g>
+    <g
+       id="g57087-6"
+       transform="matrix(0.6388764,0,0,0.6388764,177.61293,-160.05444)">
+      <rect
+         style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect788-9-8-6-2-2-7"
+         width="43.211418"
+         height="15.7838"
+         x="84.169876"
+         y="256.08847"
+         ry="2.4187393" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.96966px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:42.8162;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:2.4, 0.600001;stroke-dashoffset:0"
+         x="104.92413"
+         y="202.09464"
+         id="text26116-5-0-3-8"
+         transform="translate(0.42351322,59.019488)"><tspan
+           x="104.92413"
+           y="202.09464"
+           id="tspan3095"><tspan
+             style="font-weight:bold"
+             id="tspan3093">HaplotypeCaller</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.41748px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="105.26053"
+         y="268.40399"
+         id="text14304-6-3-4-4-0"><tspan
+           sodipodi:role="line"
+           id="tspan14302-0-1-0-8-9"
+           style="font-size:4.41748px;stroke-width:0.5"
+           x="105.26053"
+           y="268.40399">Genomic interval 1</tspan></text>
+    </g>
+    <g
+       id="g57087-6-6"
+       transform="matrix(0.6388764,0,0,0.6388764,176.94545,-127.36252)">
+      <rect
+         style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect788-9-8-6-2-2-7-3"
+         width="49.208012"
+         height="15.641038"
+         x="84.169876"
+         y="256.08847"
+         ry="2.4187393" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.96966px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:46.8835;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:2.4, 0.600001;stroke-dashoffset:0"
+         x="104.92413"
+         y="202.09464"
+         id="text26116-5-0-3-8-2"
+         transform="translate(3.8148675,59.019488)"><tspan
+           x="104.92413"
+           y="202.09464"
+           id="tspan3099"><tspan
+             style="font-weight:bold"
+             id="tspan3097">GenomicsDBImport</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.41748px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="109.08233"
+         y="268.40399"
+         id="text14304-6-3-4-4-0-7"><tspan
+           sodipodi:role="line"
+           id="tspan14302-0-1-0-8-9-5"
+           style="font-size:4.41748px;stroke-width:0.5"
+           x="109.08233"
+           y="268.40399">Genomic interval 1</tspan></text>
+    </g>
+    <g
+       id="g57087-6-6-4"
+       transform="matrix(0.6388764,0,0,0.6388764,177.10324,-94.713736)">
+      <rect
+         style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect788-9-8-6-2-2-7-3-08"
+         width="49.208012"
+         height="15.641038"
+         x="84.169876"
+         y="256.08847"
+         ry="2.4187393" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.96966px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:46.8835;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:2.4, 0.600001;stroke-dashoffset:0"
+         x="104.92413"
+         y="202.09464"
+         id="text26116-5-0-3-8-2-0"
+         transform="translate(3.8148675,59.019488)"><tspan
+           x="104.92413"
+           y="202.09464"
+           id="tspan3103"><tspan
+             style="font-weight:bold"
+             id="tspan3101">GenotypeGVCFs</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.41748px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="109.08233"
+         y="268.40399"
+         id="text14304-6-3-4-4-0-7-3"><tspan
+           sodipodi:role="line"
+           id="tspan14302-0-1-0-8-9-5-8"
+           style="font-size:4.41748px;stroke-width:0.5"
+           x="109.08233"
+           y="268.40399">Genomic interval 1</tspan></text>
+    </g>
+    <g
+       id="g57087-6-6-4-5"
+       transform="matrix(0.6388764,0,0,0.6388764,177.10324,-84.798377)">
+      <rect
+         style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect788-9-8-6-2-2-7-3-08-6"
+         width="49.208012"
+         height="15.641038"
+         x="84.169876"
+         y="256.08847"
+         ry="2.4187393" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.96966px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:46.8835;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:2.4, 0.600001;stroke-dashoffset:0"
+         x="104.92413"
+         y="202.09464"
+         id="text26116-5-0-3-8-2-0-9"
+         transform="translate(3.8148675,59.019488)"><tspan
+           x="104.92413"
+           y="202.09464"
+           id="tspan3107"><tspan
+             style="font-weight:bold"
+             id="tspan3105">GenotypeGVCFs</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.41748px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="109.08233"
+         y="268.40399"
+         id="text14304-6-3-4-4-0-7-3-2"><tspan
+           sodipodi:role="line"
+           id="tspan14302-0-1-0-8-9-5-8-6"
+           style="font-size:4.41748px;stroke-width:0.5"
+           x="109.08233"
+           y="268.40399">Genomic interval 2</tspan></text>
+    </g>
+    <g
+       id="g57087-6-6-4-5-2"
+       transform="matrix(0.6388764,0,0,0.6388764,177.28928,-75.956945)">
+      <rect
+         style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect788-9-8-6-2-2-7-3-08-6-7"
+         width="49.208012"
+         height="15.641038"
+         x="84.169876"
+         y="256.08847"
+         ry="2.4187393" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.96966px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:46.8835;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:2.4, 0.600001;stroke-dashoffset:0"
+         x="104.92413"
+         y="202.09464"
+         id="text26116-5-0-3-8-2-0-9-4"
+         transform="translate(3.8148675,59.019488)"><tspan
+           x="104.92413"
+           y="202.09464"
+           id="tspan3111"><tspan
+             style="font-weight:bold"
+             id="tspan3109">GenotypeGVCFs</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.41748px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="109.08233"
+         y="268.40399"
+         id="text14304-6-3-4-4-0-7-3-2-2"><tspan
+           sodipodi:role="line"
+           id="tspan14302-0-1-0-8-9-5-8-6-4"
+           style="font-size:4.41748px;stroke-width:0.5"
+           x="109.08233"
+           y="268.40399">Genomic interval 3</tspan></text>
+    </g>
+    <g
+       id="g57087-6-6-7"
+       transform="matrix(0.6388764,0,0,0.6388764,176.94545,-118.33487)">
+      <rect
+         style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect788-9-8-6-2-2-7-3-0"
+         width="49.208012"
+         height="15.641038"
+         x="84.169876"
+         y="256.08847"
+         ry="2.4187393" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.96966px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:46.8835;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:2.4, 0.600001;stroke-dashoffset:0"
+         x="104.92413"
+         y="202.09464"
+         id="text26116-5-0-3-8-2-1"
+         transform="translate(3.8148675,59.019488)"><tspan
+           x="104.92413"
+           y="202.09464"
+           id="tspan3115"><tspan
+             style="font-weight:bold"
+             id="tspan3113">GenomicsDBImport</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.41748px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="109.08233"
+         y="268.40399"
+         id="text14304-6-3-4-4-0-7-5"><tspan
+           sodipodi:role="line"
+           id="tspan14302-0-1-0-8-9-5-1"
+           style="font-size:4.41748px;stroke-width:0.5"
+           x="109.08233"
+           y="268.40399">Genomic interval 2</tspan></text>
+    </g>
+    <g
+       id="g57087-6-6-7-1"
+       transform="matrix(0.6388764,0,0,0.6388764,176.94545,-109.51032)">
+      <rect
+         style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect788-9-8-6-2-2-7-3-0-9"
+         width="49.208012"
+         height="15.641038"
+         x="84.169876"
+         y="256.08847"
+         ry="2.4187393" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.96966px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:46.8835;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:2.4, 0.600001;stroke-dashoffset:0"
+         x="104.92413"
+         y="202.09464"
+         id="text26116-5-0-3-8-2-1-9"
+         transform="translate(3.8148675,59.019488)"><tspan
+           x="104.92413"
+           y="202.09464"
+           id="tspan3119"><tspan
+             style="font-weight:bold"
+             id="tspan3117">GenomicsDBImport</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.41748px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="109.08233"
+         y="268.40399"
+         id="text14304-6-3-4-4-0-7-5-2"><tspan
+           sodipodi:role="line"
+           id="tspan14302-0-1-0-8-9-5-1-3"
+           style="font-size:4.41748px;stroke-width:0.5"
+           x="109.08233"
+           y="268.40399">Genomic interval 3</tspan></text>
+    </g>
+    <g
+       id="g57087-6-9"
+       transform="matrix(0.6388764,0,0,0.6388764,177.61293,-151.32482)">
+      <rect
+         style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect788-9-8-6-2-2-7-9"
+         width="43.211418"
+         height="15.7838"
+         x="84.169876"
+         y="256.08847"
+         ry="2.4187393" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.96966px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:42.8162;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:2.4, 0.600001;stroke-dashoffset:0"
+         x="104.92413"
+         y="202.09464"
+         id="text26116-5-0-3-8-0"
+         transform="translate(0.42351322,59.019488)"><tspan
+           x="104.92413"
+           y="202.09464"
+           id="tspan3123"><tspan
+             style="font-weight:bold"
+             id="tspan3121">HaplotypeCaller</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.41748px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="105.26053"
+         y="268.40399"
+         id="text14304-6-3-4-4-0-1"><tspan
+           sodipodi:role="line"
+           id="tspan14302-0-1-0-8-9-0"
+           style="font-size:4.41748px;stroke-width:0.5"
+           x="105.26053"
+           y="268.40399">Genomic interval 2</tspan></text>
+    </g>
+    <g
+       id="g57087-6-9-6"
+       transform="matrix(0.6388764,0,0,0.6388764,177.61293,-142.50322)">
+      <rect
+         style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect788-9-8-6-2-2-7-9-7"
+         width="43.211418"
+         height="15.7838"
+         x="84.169876"
+         y="256.08847"
+         ry="2.4187393" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:42.8162;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:2.4, 0.600001;stroke-dashoffset:0"
+         x="104.92413"
+         y="202.09464"
+         id="text26116-5-0-3-8-0-1"
+         transform="translate(0.42351322,59.019488)"><tspan
+           x="104.92413"
+           y="202.09464"
+           id="tspan3127"><tspan
+             style="font-weight:bold"
+             id="tspan3125">HaplotypeCaller</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.41748px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="105.26053"
+         y="268.40399"
+         id="text14304-6-3-4-4-0-1-4"><tspan
+           sodipodi:role="line"
+           id="tspan14302-0-1-0-8-9-0-7"
+           style="font-size:4.41748px;stroke-width:0.5"
+           x="105.26053"
+           y="268.40399">Genomic interval 3</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.475145;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Arrow3-0-5-2-4)"
+       d="m 112.2169,80.877475 v 10.33992"
+       id="path2508-4-6-8-9"
+       sodipodi:nodetypes="cc" />
+    <g
+       id="g757"
+       transform="translate(-2.8379826,2.1101606)">
+      <rect
+         style="fill:#ffe680;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect788-2-5"
+         width="66.253891"
+         height="18.803444"
+         x="83.440948"
+         y="89.562004"
+         ry="2.4187393" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="117.49892"
+         y="95.170906"
+         id="text5763-7-2"><tspan
+           sodipodi:role="line"
+           id="tspan5761-5-98"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';fill:#000000;stroke:none;stroke-width:0.5"
+           x="117.49892"
+           y="95.170906">Recalibrated <tspan
+   style="font-weight:bold"
+   id="tspan54861">Mapped</tspan> reads</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:44.8451;display:inline;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="105.66043"
+         y="122.67814"
+         id="text14304-6-1-2"
+         transform="translate(10.71343,-21.284754)"><tspan
+           x="105.66043"
+           y="122.67814"
+           id="tspan3131"><tspan
+   style="stroke-width:0.5"
+   id="tspan3129">Intermediate output:</tspan><tspan
+   y="122.67814"
+   id="tspan3133"> </tspan></tspan><tspan
+           x="105.66043"
+           y="127.9698"
+           id="tspan3135">Analysis Ready BAM</tspan></text>
+    </g>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;marker-end:url(#Arrow3)"
+       d="m 66.992535,114.36142 h 8.207981 L 74.577653,13.293591 h 11.500454"
+       id="path56852"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.475145;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Arrow3-0-5-2-23)"
+       d="m 34.384803,82.155846 0.07917,14.150912"
+       id="path2508-4-6-8-4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.600001;stroke-linejoin:bevel;marker-end:url(#Arrow3)"
+       d="m 146.85686,101.07389 h 30.5497 l -0.62954,-86.141495 h 9.90905"
+       id="path998"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-3.8699762,0.85566141)"
+       id="text3664"
+       style="font-size:16px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;white-space:pre;shape-inside:url(#rect3666);display:inline;fill:#000000;stroke:none;stroke-width:2.26772;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text4678"
+       style="font-size:16px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;white-space:pre;shape-inside:url(#rect4680);display:inline;fill:none;stroke:#000000;stroke-width:2.26772;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:36.7372;display:inline;fill:#000000;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+       x="250.25847"
+       y="12.712781"
+       id="text4728"
+       transform="translate(36.226573,-3.8528036)"><tspan
+         x="250.25847"
+         y="12.712781"
+         id="tspan3139"><tspan
+           style="stroke-width:0.6"
+           id="tspan3137">
+</tspan></tspan><tspan
+         x="250.25847"
+         y="18.004443"
+         id="tspan3143"><tspan
+   style="stroke-width:0.6"
+   id="tspan3141">Calls variants from</tspan><tspan
+   y="18.004443"
+   id="tspan3145"> </tspan></tspan><tspan
+         x="250.25847"
+         y="23.296104"
+         id="tspan3151"><tspan
+   style="stroke-width:0.6"
+   id="tspan3147">multiple </tspan><tspan
+   style="font-weight:bold"
+   id="tspan3149">genomic</tspan><tspan
+   y="23.296104"
+   id="tspan3153"> </tspan></tspan><tspan
+         x="250.25847"
+         y="28.587767"
+         id="tspan3157"><tspan
+           style="font-weight:bold"
+           id="tspan3155">intervals</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:36.7372;display:inline;fill:#000000;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+       x="250.25847"
+       y="12.712781"
+       id="text4728-8"
+       transform="translate(37.06188,29.298923)"><tspan
+         x="250.25847"
+         y="12.712781"
+         id="tspan3161"><tspan
+           style="stroke-width:0.6"
+           id="tspan3159">
+</tspan></tspan><tspan
+         x="250.25847"
+         y="18.004443"
+         id="tspan3167"><tspan
+   style="stroke-width:0.6"
+   id="tspan3163">Adds </tspan><tspan
+   style="font-weight:bold"
+   id="tspan3165">genomic</tspan><tspan
+   y="18.004443"
+   id="tspan3169"> </tspan></tspan><tspan
+         x="250.25847"
+         y="23.296104"
+         id="tspan3173"><tspan
+   style="font-weight:bold"
+   id="tspan3171">intervals </tspan>to<tspan
+   y="23.296104"
+   id="tspan3175"> </tspan></tspan><tspan
+         x="250.25847"
+         y="28.587767"
+         id="tspan3177">database file</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:36.7372;display:inline;fill:#000000;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+       x="250.25847"
+       y="12.712781"
+       id="text4728-8-6"
+       transform="translate(38.084916,59.75033)"><tspan
+         x="250.25847"
+         y="12.712781"
+         id="tspan3181"><tspan
+           style="stroke-width:0.6"
+           id="tspan3179">
+</tspan></tspan><tspan
+         x="250.25847"
+         y="18.004443"
+         id="tspan3187"><tspan
+   style="stroke-width:0.6"
+   id="tspan3183">Performs </tspan><tspan
+   style="font-weight:bold"
+   id="tspan3185">joint</tspan><tspan
+   y="18.004443"
+   id="tspan3189"> </tspan></tspan><tspan
+         x="250.25847"
+         y="23.296104"
+         id="tspan3195"><tspan
+   style="font-weight:bold"
+   id="tspan3191">genotyping</tspan><tspan
+   style="stroke-width:0.6"
+   id="tspan3193"> on</tspan><tspan
+   y="23.296104"
+   id="tspan3197"> </tspan></tspan><tspan
+         x="250.25847"
+         y="28.587767"
+         id="tspan3201"><tspan
+   style="stroke-width:0.6"
+   id="tspan3199">multiple genomic</tspan><tspan
+   y="28.587767"
+   id="tspan3203"> </tspan></tspan><tspan
+         x="250.25847"
+         y="33.879429"
+         id="tspan3207"><tspan
+           style="stroke-width:0.6"
+           id="tspan3205">intervals</tspan></tspan></text>
+    <g
+       id="g8450"
+       transform="translate(22.213199,1.1172257)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:1.2, 0.600001;stroke-dashoffset:0"
+         d="m 237.97022,7.479173 h 7.02787 v 18.288256 h -6.73857"
+         id="path4676"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:1.2, 0.600001;stroke-dashoffset:0"
+         d="m 244.38969,16.923301 h -5.51107"
+         id="path4790"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       id="g8446"
+       transform="translate(22.213199,1.1172257)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:1.2, 0.600001;stroke-dashoffset:0"
+         d="m 241.34107,40.791651 h 7.02787 v 18.288256 h -6.73857"
+         id="path4676-8"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:1.2, 0.600001;stroke-dashoffset:0"
+         d="m 247.76054,50.235779 h -5.51107"
+         id="path4790-9"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       id="g8446-2"
+       transform="translate(22.528792,34.653713)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:1.2, 0.600001;stroke-dashoffset:0"
+         d="m 241.34107,40.791651 h 7.02787 v 18.288256 h -6.73857"
+         id="path4676-8-1"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:1.2, 0.600001;stroke-dashoffset:0"
+         d="m 247.76054,50.235779 h -5.51107"
+         id="path4790-9-3"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.475145;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Arrow3-0-5-2-4-9)"
+       d="M 207.78912,23.686017 V 35.706296"
+       id="path2508-4-6-8-9-2"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.475145;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Arrow3-0-5-2-4-9-9)"
+       d="M 207.78912,52.857392 V 72.506608"
+       id="path2508-4-6-8-9-2-2"
+       sodipodi:nodetypes="cc" />
+    <g
+       id="g57087-9-0-9"
+       transform="translate(102.01353,-152.60704)">
+      <rect
+         style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect788-9-8-6-2-2-6-0-9"
+         width="43.211418"
+         height="15.7838"
+         x="84.169876"
+         y="256.08847"
+         ry="2.4187393" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:42.8162;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:2.4, 0.600001;stroke-dashoffset:0"
+         x="104.92413"
+         y="202.09464"
+         id="text26116-5-0-3-5-5-0"
+         transform="translate(0.42351322,59.019488)"><tspan
+           x="104.92413"
+           y="202.09464"
+           id="tspan3211"><tspan
+             style="font-weight:bold"
+             id="tspan3209">GatherVcfs</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="105.26053"
+         y="268.40399"
+         id="text14304-6-3-4-4-6-4-2"><tspan
+           sodipodi:role="line"
+           id="tspan14302-0-1-0-8-5-8-1"
+           style="stroke-width:0.5"
+           x="105.26053"
+           y="268.40399">gatk4 4.6.1.0</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.475145;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Arrow3-0-5-2-4-9-9-1)"
+       d="M 207.78912,89.325214 V 102.70609"
+       id="path2508-4-6-8-9-2-2-0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,7.3782902,-7.6075452)"
+       id="text9745"
+       style="font-size:16px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;white-space:pre;shape-inside:url(#rect9747);display:inline;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:2.26772;stroke-linejoin:bevel;stroke-dasharray:4.53544, 2.26772;stroke-dashoffset:0"><tspan
+         x="963.59277"
+         y="53.460899"
+         id="tspan3215"><tspan
+           style="font-weight:bold"
+           id="tspan3213">Parallelised processes</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.475145;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Arrow3-0-5-2-4-94)"
+       d="m 207.78912,118.98684 v 9.53367"
+       id="path2508-4-6-8-9-28"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 174.21554,12.552287 2.56148,2.380108"
+       id="path13268"
+       sodipodi:nodetypes="cc" />
+    <g
+       id="g1812"
+       transform="translate(-1.733108,11.876089)">
+      <ellipse
+         style="fill:#44aa00;stroke:#225500;stroke-width:0.2;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="path670"
+         cx="64.957825"
+         cy="7.141655"
+         rx="6.76547"
+         ry="6.6467953" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel"
+         x="64.87101"
+         y="8.6237335"
+         id="text832"><tspan
+           sodipodi:role="line"
+           id="tspan830"
+           style="font-weight:bold;font-size:3.88056px;fill:#000000;stroke:none;stroke-width:0.6"
+           x="64.87101"
+           y="8.6237335">START</tspan></text>
+    </g>
+    <g
+       id="g1812-4"
+       transform="translate(176.88354,137.0396)">
+      <ellipse
+         style="fill:#ff9700;stroke:#ff9337;stroke-width:0.2;stroke-linejoin:bevel;stroke-dasharray:none;fill-opacity:1;stroke-opacity:1"
+         id="path670-0"
+         cx="64.957825"
+         cy="7.141655"
+         rx="6.76547"
+         ry="6.6467953" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;fill-opacity:1"
+         x="64.87101"
+         y="8.6237335"
+         id="text832-9"><tspan
+           sodipodi:role="line"
+           id="tspan830-6"
+           style="font-weight:bold;font-size:3.88056px;fill:#000000;stroke:none;stroke-width:0.6;fill-opacity:1"
+           x="64.87101"
+           y="8.6237335">END</tspan></text>
+    </g>
+  </g>
+</svg>
