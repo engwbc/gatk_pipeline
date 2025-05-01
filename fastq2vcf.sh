@@ -2,7 +2,7 @@
 
 SCRIPT_PATH=$(dirname "$(realpath "$0")") #Get script's path to source genericFunctions
 source ${SCRIPT_PATH}/genericFunctions.sh #Import custom functions eg. createOutDir
-exit_value= #Initialise and assign a variable for exit code $? 
+exit_value= # Assign a variable for exit code $? 
 
 while getopts "i:o:r:s:L:h" opt; do
     case $opt in
@@ -42,6 +42,8 @@ checkProgram bwa gatk samtools fastp java parallel
 printf "Input directory: ${input_dir}\nReference: ${reference}\n\
 Output directory: ${output_dir}\n"
 
+# Initiate genomic region splitting for HaplotypeCaller
+# this is done once per run as intervals can be reused
 split_int_dir=${output_dir}/tmp
 SCATTER_COUNT=24
 createTmpDir $split_int_dir
@@ -53,7 +55,6 @@ gatk SplitIntervals \
     -O ${split_int_dir}
 exit_value=$? #get gatk exit code
 checkExitStatus "SplitIntervals" $exit_value #if exit code = 0 - success, else end script
-#intervals can be reused - keep them until I can verify that this method works; otherwise run rm
 scattered_intervals=()
 
 # Loop through each .interval_list file in the directory
@@ -71,7 +72,7 @@ else #Direct the user to check split_int_dir in case of user error
     exit 1
 fi 
 
-#Index reference
+#Check if reference has been indexed, if not run bwa index
 checkRefIndex $reference
 #if reference hasn't been indexed in a while or if not frequently used, safer to reindex
 
@@ -234,7 +235,7 @@ while read fastq; do
     exit_value=$?
     checkExitStatus "HaplotypeCaller" $exit_value
 
-    ## Create a map file for batch importing into GenomicsDBImport to merge the g.vcf files##
+    ## Create a map file for batch importing into GenomicsDBImport to merge the g.vcf files
     echo "Found `find ${haplo_outputfolder} -type f -name "*\.g.vcf.gz" | wc -l` g.vcf.gz files" #find in haplotypecaller folder
     echo "Creating sample list for GenomicsDBImport"
     > ${output_dir}/${sample_name}.map #for debugging purposes the .map file is cleared if it exists from a previous run for whatever reason
@@ -242,7 +243,7 @@ while read fastq; do
         interval_id=$(basename $file | sed -E 's/.*_([0-9]{4})\.g\.vcf\.gz/\1/') #extract interval id
         echo $interval_id
         map_sample_name=${sample_name}_${interval_id}
-        echo -e "${map_sample_name}\t${file}" >> ${output_dir}/${sample_name}.map
+        echo -e "${map_sample_name}\t${file}" >> ${output_dir}/${sample_name}.map #write matched gvcf to map file
     done
 
     if [ -f "${output_dir}/${sample_name}.map" ]; then
@@ -302,8 +303,8 @@ while read fastq; do
    
     gather_inputs_len=$(echo $gather_inputs | wc -w) # use wc --words to count the number of entries
     #error check to ensure files were correctly matched
-    if [ ${gather_inputs_len} -ne ${scatter_count} ]; then
-        echo "ERROR: Mismatched of GVCF files, expected ${scatter_count}! Retry HaplotypeCaller."
+    if [ ${gather_inputs_len} -ne ${SCATTER_COUNT} ]; then
+        echo "ERROR: Mismatched of GVCF files, expected ${SCATTER_COUNT}! Retry HaplotypeCaller."
         exit 1
     else
         echo "File count OK: Found $gather_inputs_len GVCFs, running GatherVcfs..."

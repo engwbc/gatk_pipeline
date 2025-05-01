@@ -21,7 +21,7 @@ In brief, the pipeline converts raw, unmapped sequencing data from FASTQ files i
 As indicated in the overview schematic, the pipeline utilises CPU parallelisation to improve computing speed by splitting genomic regions into smaller intervals and running them as multiple processes simultaneously. I found that the pipeline runs faster, reducing total processing time by approximately 48% on average across various runs (Figure 1), compared to a non-parallelised pipeline. However, these savings will depend on the complexity of your sample, your CPU speed, and system load while running the pipeline. </br>
 
 ![runtime_plot](misc/runtime_plot.png)
-*Figure 1: Comparison of walltime in minutes between normal and parallelised workflows for different types samples with percentage change indicated.  Multilane WGS 30X Human refers to a sample sequenced with 4 lanes ran with `multilane_fastq2vcf.sh`. 1/20 and 1/50 denote fractionated sequences obtained by running `seqkit split2` where the samples were split into 20 parts and 50 parts, respectively.*
+*Figure 1: Comparison of walltime in minutes between normal and parallelised workflows for different types samples with percentage change indicated.  Multilane WGS 30X Human refers to a sample sequenced with 4 lanes and converted to VCF with `multilane_fastq2vcf.sh`. 1/20 and 1/50 denote fractionated sequences obtained by running `seqkit split2` in which the sample was split into 20 parts and 50 parts, respectively.*
 
 Most tasks utilise multithreading by default (e.g., `HaplotypeCaller` uses 2 threads for IntelHMM), here I explicitly refer to running tasks **in tandem** by assigning a specific amount of CPU cores. For instance, `HaplotypeCaller` is set to run simultaneously three times (`parallel --jobs 3`), by default this roughly equates to using [3 CPU cores per job](https://www.gnu.org/software/parallel/parallel_tutorial.html#number-of-simultaneous-jobs). As each CPU core typically contains 2 threads each, this corresponds to using 6 threads for `HaplotypeCaller`, therefore the system will use approximately 3 cores/6 threads in total.</br>
 
@@ -36,7 +36,7 @@ ___
 3. `fastp`
 4. `gatk4` + java development kit (JDK)
 5. `samtools`
-6. [`parallel`](https://www.gnu.org/software/parallel/)</li>
+6. [`parallel`](https://www.gnu.org/software/parallel/)
 
 Refer to [#software version](#software-version) for more details.
 ___
@@ -45,13 +45,18 @@ ___
 
 ### Main script
 
+**Important**: Keep `genericFunctions.sh` in the same directory as `fastq2vcf.sh` or `multilane_fastq2vcf.sh`!
+
 ```sh
 bash /path/to/fastq2vcf.sh \
 -i /path/to/fastq/folder \
 -o /path/to/output/folder \
 -r /path/to/reference.fasta \
--s /path/to/dbSNP.vcf.gz
+-s /path/to/dbSNP.vcf.gz \
+-L /path/to/your.interval_list
 ```
+
+* For interval formatting, refer to [GATK - Intervals and interval lists](https://gatk.broadinstitute.org/hc/en-us/articles/360035531852-Intervals-and-interval-lists).
 
 ### Multi-lane samples
 
@@ -60,10 +65,9 @@ bash /path/to/mutlilane_fastq2vcf.sh \
 -i /path/to/fastq/folder \
 -o /path/to/output/folder \
 -r /path/to/reference.fasta \
--s /path/to/dbSNP.vcf.gz
+-s /path/to/dbSNP.vcf.gz    \
+-L /path/to/your.interval_list
 ```
-
-**Important**: Keep `genericFunctions.sh` in the same directory as `fastq2vcf.sh` or `multilane_fastq2vcf.sh`!
 
 Make sure the fastq files contain the lane ID (`L00X`) in the filename:
 
