@@ -10,7 +10,7 @@
 
 This pipeline is adapted from the GATK [Genome Analysis Best Practices Workflow](https://gatk.broadinstitute.org/hc/en-us/articles/360035535912-Data-pre-processing-for-variant-discovery) to obtain genetic variants for human samples.
 
-In brief, the pipeline converts raw, unmapped sequencing data from FASTQ files into variant calling files (VCF). Reads within the VCF file are sorted and mapped to a reference genome with low quality reads and adapters removed.
+In brief, the pipeline converts raw, unmapped sequencing data from FASTQ files into variant calling format (VCF) files. Reads within the VCF file are sorted and mapped to a reference genome with low quality reads and adapters removed.
 
 ### Pipeline overview
 
@@ -79,8 +79,6 @@ bash /path/to/fastq2vcf.sh \
 -L /path/to/your.interval_list
 ```
 
-* For interval formatting, refer to [GATK - Intervals and interval lists](https://gatk.broadinstitute.org/hc/en-us/articles/360035531852-Intervals-and-interval-lists).
-
 ### Multi-lane samples
 
 ```sh
@@ -95,15 +93,21 @@ bash /path/to/mutlilane_fastq2vcf.sh \
 Make sure the fastq files contain the lane ID (`L00X`) in the filename:
 
 * sample1_**L001**_R1_x.fastq.gz
+* sample1_**L002**_R1_x.fastq.gz
 
 ### Arguments
 
 ```sh
 -i : input directory (folder containing fastq files)
--o : output directory (can be a new path, the script will create one)
+-o : output directory (can be a new folder, the script will create one; ensure you have write permissions!)
 -r : reference genome (.fasta file)
--s : database of known polymorphic sites (for file format refer to https://gatk.broadinstitute.org/hc/en-us/articles/360036898312-BaseRecalibrator#--known-sites)
+-s : database of known polymorphic sites
+-L : genome interval list (can be VCF, BED or .interval_list)
 ```
+
+* SNP databasefile format refer to [GATK - BaseRecalibrator known sites](https://gatk.broadinstitute.org/hc/en-us/articles/360036898312-BaseRecalibrator#--known-sites).
+
+* Interval file formatting, refer to [GATK - Intervals and interval lists](https://gatk.broadinstitute.org/hc/en-us/articles/360035531852-Intervals-and-interval-lists).
 
 [Back to top](#contents)
 ___
