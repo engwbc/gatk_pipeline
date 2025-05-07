@@ -43,6 +43,29 @@ ___
 
 ## Usage
 
+### Environment setup
+
+Download `gatk_environment.yml` and run the following conda command:
+
+1. ```conda env create -f gatk_environment.yml```
+
+    This might take a while as conda will create an environment containing the packages listed above. **Note: installation size is ~6.5GB.**
+
+2. Activate environment: ```conda activate gatk4```
+
+3. Check packages: ```conda list | grep -E '^(gatk4|parallel|samtools|bwa|bash|fastp|)[[:space:]]'```
+
+    The following output should be returned:
+
+    ```sh
+    bash                      5.2.21               h7f99829_0    conda-forge
+    bwa                       0.7.18               he4a0461_1    bioconda
+    fastp                     0.24.0               h125f33a_0    bioconda
+    gatk4                     4.6.1.0         py310hdfd78af_0    bioconda
+    parallel                  20250422             ha770c72_0    conda-forge
+    samtools                  1.21                 h50ea8bc_0    bioconda
+    ```
+
 ### Main script
 
 **Important**: Keep `genericFunctions.sh` in the same directory as `fastq2vcf.sh` or `multilane_fastq2vcf.sh`!
