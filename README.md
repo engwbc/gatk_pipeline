@@ -3,6 +3,8 @@
 1. [Introduction](#introduction)
 2. [Requirements](#requirements)
 3. [Usage](#usage)
+    * [Quick download](https://github.com/engwbc/gatk_pipeline/releases/download/1.0.0-alpha/gatk_pipeline.tar.gz)
+    * [Main script](#main-script)
 4. [Process](#steps)
 5. [Future Plans](#future-plans)
 
@@ -43,13 +45,17 @@ ___
 
 ## Usage
 
+### Download
+
+* [Releases](https://github.com/engwbc/gatk_pipeline/releases)
+
 ### Environment setup
 
 Download `gatk_environment.yml` and run the following conda command:
 
 1. ```conda env create -f gatk_environment.yml```
 
-    This might take a while as conda will create an environment containing the packages listed above. **Note: installation size is ~6.5GB.**
+    This might take a while as conda will create an environment containing the packages listed above (and more). **Note: installation size is ~6.5GB.**
 
 2. Activate environment: ```conda activate gatk4```
 
