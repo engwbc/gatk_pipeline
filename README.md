@@ -3,7 +3,7 @@
 1. [Introduction](#introduction)
 2. [Requirements](#requirements)
 3. [Usage](#usage)
-    * [Quick download](https://github.com/engwbc/gatk_pipeline/releases/download/1.0.0/gatk_pipeline.tar.gz)
+    * [Quick download](https://github.com/engwbc/gatk_pipeline/releases/download/1.0.0/gatk_pipeline_v1.0.0.tar.gz)
     * [Main script](#main-script)
     * [Multi-lane samples](#multi-lane-samples)
     * [Variant filtering](#variant-filtering)
