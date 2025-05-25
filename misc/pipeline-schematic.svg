@@ -3,8 +3,8 @@
 
 <svg
    width="1180"
-   height="580"
-   viewBox="0 0 312.20833 153.45833"
+   height="680"
+   viewBox="0 0 312.20833 179.91666"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
@@ -24,15 +24,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.0255231"
-     inkscape:cx="583.11705"
-     inkscape:cy="330.07545"
+     inkscape:zoom="0.72515434"
+     inkscape:cx="546.78015"
+     inkscape:cy="388.19322"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer2" />
+     inkscape:current-layer="layer1" />
   <defs
      id="defs2">
     <rect
@@ -258,16 +258,57 @@
          transform="rotate(180,0.125,0)"
          sodipodi:nodetypes="ccc" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-0-5-2-4-94-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-8-6-2-8-3-5"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-0-5-2-4-94-6-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-8-6-2-8-3-5-4"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
   </defs>
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="Layer 2">
+     inkscape:label="Layer 2"
+     sodipodi:insensitive="true">
     <rect
        style="fill:#ffffff;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel"
        id="rect677"
        width="312.20834"
-       height="153.45833"
+       height="179.91667"
        x="0"
        y="0"
        ry="2.4187393" />
@@ -281,25 +322,25 @@
        id="rect788"
        width="52.554054"
        height="20"
-       x="8.0890207"
-       y="3.2935913"
+       x="10.054341"
+       y="4.8544011"
        ry="2.4187393" />
     <rect
        style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:1.2, 0.600001;stroke-dashoffset:0"
        id="rect9538"
        width="125.56059"
        height="98.610062"
-       x="180.95242"
-       y="0.95855504"
+       x="182.91774"
+       y="2.5193651"
        ry="1.5452754" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.475145;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Arrow3)"
-       d="M 34.366048,23.712188 V 34.440902"
+       d="M 36.331369,25.272998 V 36.001712"
        id="path2508"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.475145;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Arrow3-9)"
-       d="M 34.445228,50.672368 V 61.401082"
+       d="M 36.410549,52.233178 V 62.961892"
        id="path2508-2"
        sodipodi:nodetypes="cc" />
     <rect
@@ -307,28 +348,28 @@
        id="rect788-9"
        width="65.383957"
        height="30.360704"
-       x="1.7646848"
-       y="96.606758"
+       x="3.7300055"
+       y="98.167564"
        ry="2.4187393" />
     <rect
        style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
        id="rect788-9-8"
        width="41.906101"
        height="15.654797"
-       x="12.9544"
-       y="35.01757"
+       x="14.919721"
+       y="36.578381"
        ry="2.4187393" />
     <text
        xml:space="preserve"
        style="font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
-       x="34.243057"
-       y="8.4016991"
+       x="36.208378"
+       y="9.9625092"
        id="text5763"><tspan
          sodipodi:role="line"
          id="tspan5761"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';fill:#000000;stroke:none;stroke-width:0.5"
-         x="34.243057"
-         y="8.4016991">Raw <tspan
+         x="36.208378"
+         y="9.9625092">Raw <tspan
    style="font-weight:bold"
    id="tspan9836">unmapped</tspan> reads</tspan></text>
     <text
@@ -337,44 +378,44 @@
        x="105.50056"
        y="45.046356"
        id="text5763-1"
-       transform="translate(-71.213123,57.959032)"><tspan
+       transform="translate(-69.247802,59.519842)"><tspan
          x="105.50056"
          y="45.046356"
-         id="tspan861"><tspan
+         id="tspan1229"><tspan
            style="font-weight:bold;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';stroke-width:0.5"
-           id="tspan859">Map to reference
+           id="tspan1227">Map to reference
 </tspan></tspan><tspan
          x="105.50056"
          y="51.347168"
-         id="tspan865"><tspan
+         id="tspan1233"><tspan
    style="font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';stroke-width:0.5"
-   id="tspan863">(e.g. GRCh38) + Positional</tspan><tspan
+   id="tspan1231">(e.g. GRCh38) + Positional</tspan><tspan
    y="51.347168"
-   id="tspan867"> </tspan></tspan><tspan
+   id="tspan1235"> </tspan></tspan><tspan
          x="105.50056"
          y="57.64798"
-         id="tspan871"><tspan
+         id="tspan1239"><tspan
            style="font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';stroke-width:0.5"
-           id="tspan869">sorting</tspan></tspan></text>
+           id="tspan1237">sorting</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:4.23333px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle;white-space:pre;inline-size:41.446;display:inline;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
        x="109.27702"
        y="16.768591"
        id="text8358"
-       transform="translate(-74.693632,-1.4673383)"><tspan
+       transform="translate(-72.728311,0.09347176)"><tspan
          x="109.27702"
          y="16.768591"
-         id="tspan875"><tspan
+         id="tspan1243"><tspan
    style="font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';stroke-width:0.5"
-   id="tspan873">Input: 1 or more*</tspan><tspan
+   id="tspan1241">Input: 1 or more*</tspan><tspan
    y="16.768591"
-   id="tspan877"> </tspan></tspan><tspan
+   id="tspan1245"> </tspan></tspan><tspan
          x="109.27702"
          y="22.169281"
-         id="tspan881"><tspan
+         id="tspan1249"><tspan
            style="font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';stroke-width:0.5"
-           id="tspan879">gzipped FASTQ pairs</tspan></tspan></text>
+           id="tspan1247">gzipped FASTQ pairs</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
@@ -389,14 +430,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
-       x="35.225121"
-       y="122.89425"
+       x="37.190441"
+       y="124.45506"
        id="text14304"><tspan
          sodipodi:role="line"
          id="tspan14302"
          style="stroke-width:0.5"
-         x="35.225121"
-         y="122.89425">bwa 0.7.18, samtools 1.21</tspan></text>
+         x="37.190441"
+         y="124.45506">bwa 0.7.18, samtools 1.21</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:2.4, 0.600001;stroke-dashoffset:0"
@@ -413,20 +454,20 @@
        id="rect788-2"
        width="50"
        height="20"
-       x="87.066902"
-       y="4.564774"
+       x="89.032227"
+       y="6.1255841"
        ry="2.4187393" />
     <text
        xml:space="preserve"
        style="font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
-       x="113.38489"
-       y="10.05917"
+       x="115.35021"
+       y="11.61998"
        id="text5763-7"><tspan
          sodipodi:role="line"
          id="tspan5761-5"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';fill:#000000;stroke:none;stroke-width:0.5"
-         x="113.38489"
-         y="10.05917">Raw <tspan
+         x="115.35021"
+         y="11.61998">Raw <tspan
    style="font-weight:bold"
    id="tspan9836-7">mapped</tspan> reads</tspan></text>
     <text
@@ -443,47 +484,47 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:2.4, 0.600001;stroke-dashoffset:0"
-       x="33.820641"
-       y="40.043247"
+       x="35.785961"
+       y="41.604057"
        id="text26116"><tspan
          sodipodi:role="line"
          id="tspan26114"
          style="font-weight:bold;stroke-width:0.6"
-         x="33.820641"
-         y="40.043247">Read QC</tspan></text>
+         x="35.785961"
+         y="41.604057">Read QC</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
-       x="33.939491"
-       y="47.031349"
+       x="35.904812"
+       y="48.592159"
        id="text14304-6"><tspan
          sodipodi:role="line"
          id="tspan14302-0"
          style="stroke-width:0.5"
-         x="33.939491"
-         y="47.031349">fastp 0.24.0</tspan></text>
+         x="35.904812"
+         y="48.592159">fastp 0.24.0</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:44.8451;display:inline;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
        x="105.66043"
        y="122.67814"
        id="text14304-6-1"
-       transform="translate(6.212442,-105.90205)"><tspan
+       transform="translate(8.1777628,-104.34124)"><tspan
          x="105.66043"
          y="122.67814"
-         id="tspan885"><tspan
+         id="tspan1253"><tspan
    style="stroke-width:0.5"
-   id="tspan883">Intermediate output:</tspan><tspan
+   id="tspan1251">Intermediate output:</tspan><tspan
    y="122.67814"
-   id="tspan887"> </tspan></tspan><tspan
+   id="tspan1255"> </tspan></tspan><tspan
          x="105.66043"
          y="127.9698"
-         id="tspan891"><tspan
+         id="tspan1259"><tspan
            style="stroke-width:0.5"
-           id="tspan889">sorted.bam</tspan></tspan></text>
+           id="tspan1257">sorted.bam</tspan></tspan></text>
     <g
        id="g15114"
-       transform="translate(2.121603)">
+       transform="translate(4.0869238,1.5608101)">
       <rect
          style="fill:#ffe680;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
          id="rect788-2-3"
@@ -512,51 +553,96 @@
          transform="translate(-73.35101,-49.385596)"><tspan
            x="105.66043"
            y="122.67814"
-           id="tspan897"><tspan
+           id="tspan1265"><tspan
    style="stroke-width:0.5"
-   id="tspan893">Intermediate</tspan> <tspan
+   id="tspan1261">Intermediate</tspan> <tspan
    style="stroke-width:0.5"
-   id="tspan895">output:</tspan><tspan
+   id="tspan1263">output:</tspan><tspan
    y="122.67814"
-   id="tspan899"> </tspan></tspan><tspan
+   id="tspan1267"> </tspan></tspan><tspan
            x="105.66043"
            y="127.9698"
-           id="tspan903"><tspan
+           id="tspan1271"><tspan
              style="stroke-width:0.5"
-             id="tspan901">qc.fastq</tspan></tspan></text>
+             id="tspan1269">qc.fastq</tspan></tspan></text>
     </g>
-    <rect
-       style="fill:#ffe680;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
-       id="rect788-2-3-1"
-       width="67.930885"
-       height="16.388042"
-       x="173.82367"
-       y="129.27528"
-       ry="2.4187393" />
-    <text
-       xml:space="preserve"
-       style="font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
-       x="207.45695"
-       y="135.45862"
-       id="text5763-7-7-6"><tspan
-         id="tspan5761-5-9-4"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';fill:#000000;stroke:none;stroke-width:0.5"
+    <g
+       id="g1374"
+       transform="translate(1.9653208,1.5608101)">
+      <rect
+         style="fill:#ffe680;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect788-2-3-1"
+         width="67.930885"
+         height="16.388042"
+         x="173.82367"
+         y="129.27528"
+         ry="2.4187393" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
          x="207.45695"
          y="135.45862"
-         sodipodi:role="line">Variant calls (SNPs &amp; Indels)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:47.4754;display:inline;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
-       x="105.66043"
-       y="122.67814"
-       id="text14304-6-1-6-8"
-       transform="translate(101.92099,19.573182)"><tspan
+         id="text5763-7-7-6"><tspan
+           id="tspan5761-5-9-4"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';fill:#000000;stroke:none;stroke-width:0.5"
+           x="207.45695"
+           y="135.45862"
+           sodipodi:role="line">Variant calls (SNPs &amp; Indels)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:47.4754;display:inline;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
          x="105.66043"
          y="122.67814"
-         id="tspan905">Output: vcf</tspan></text>
+         id="text14304-6-1-6-8"
+         transform="translate(101.92099,19.573182)"><tspan
+           x="105.66043"
+           y="122.67814"
+           id="tspan1273">Intermediate output: vcf</tspan></text>
+    </g>
+    <g
+       id="g1374-6"
+       transform="translate(59.635413,29.137538)">
+      <rect
+         style="fill:#ffe680;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect788-2-3-1-3"
+         width="51.711502"
+         height="24.783552"
+         x="187.39073"
+         y="122.58287"
+         ry="2.4187393" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle;white-space:pre;inline-size:47.4987;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="207.45695"
+         y="135.45862"
+         id="text5763-7-7-6-4"
+         transform="translate(7.0497947,-5.9634538)"><tspan
+           x="207.45695"
+           y="135.45862"
+           id="tspan1277"><tspan
+   style="font-weight:bold;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';stroke-width:0.5"
+   id="tspan1275">Filtered variants</tspan><tspan
+   y="135.45862"
+   id="tspan1279"> </tspan></tspan><tspan
+           x="207.45695"
+           y="141.75943"
+           id="tspan1283"><tspan
+             style="font-weight:bold;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';stroke-width:0.5"
+             id="tspan1281">(SNPs &amp; Indels)</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:87.2072;display:inline;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="105.66043"
+         y="122.67814"
+         id="text14304-6-1-6-8-8"
+         transform="translate(107.35998,19.862057)"><tspan
+           x="105.66043"
+           y="122.67814"
+           id="tspan1285">Final output: filtered.vcf</tspan></text>
+    </g>
     <g
        id="g774"
-       transform="translate(3.3539793,-5.2026739)">
+       transform="translate(5.3193001,-3.6418638)">
       <rect
          style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
          id="rect788-9-8-6"
@@ -590,7 +676,7 @@
     </g>
     <g
        id="g774-0"
-       transform="translate(52.940489,-33.567659)">
+       transform="translate(54.90581,-28.85989)">
       <rect
          style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
          id="rect788-9-8-6-3"
@@ -624,7 +710,7 @@
     </g>
     <g
        id="g767"
-       transform="translate(3.3539793,-5.6066158)">
+       transform="translate(5.3193001,-4.0458057)">
       <rect
          style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
          id="rect788-9-8-6-2"
@@ -642,15 +728,15 @@
          transform="translate(4.0135078,-128.84759)"><tspan
            x="104.92413"
            y="202.09464"
-           id="tspan909"><tspan
+           id="tspan1289"><tspan
              style="font-weight:bold;stroke-width:0.6"
-             id="tspan907">BaseRecalibrator +
+             id="tspan1287">BaseRecalibrator +
 </tspan></tspan><tspan
            x="104.92413"
            y="207.3863"
-           id="tspan913"><tspan
+           id="tspan1293"><tspan
              style="font-weight:bold;stroke-width:0.6"
-             id="tspan911">ApplyBQSR</tspan></tspan></text>
+             id="tspan1291">ApplyBQSR</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
@@ -665,17 +751,17 @@
     </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.475145;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Arrow3-0-5-5)"
-       d="m 112.0669,24.564773 v 10.33992"
+       d="m 114.03222,26.125583 v 10.33992"
        id="path2508-4-6-1"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.475145;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Arrow3-0-5-2)"
-       d="M 112.0669,51.520074 V 61.85999"
+       d="M 114.03222,53.080884 V 63.4208"
        id="path2508-4-6-8"
        sodipodi:nodetypes="cc" />
     <g
        id="g57087"
-       transform="translate(102.51619,-248.29838)">
+       transform="translate(104.48151,-246.73757)">
       <rect
          style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
          id="rect788-9-8-6-2-2"
@@ -693,9 +779,9 @@
          transform="translate(0.42351322,59.019488)"><tspan
            x="104.92413"
            y="202.09464"
-           id="tspan917"><tspan
+           id="tspan1297"><tspan
              style="font-weight:bold"
-             id="tspan915">HaplotypeCaller</tspan></tspan></text>
+             id="tspan1295">HaplotypeCaller</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
@@ -710,7 +796,7 @@
     </g>
     <g
        id="g57087-9"
-       transform="translate(102.01353,-219.47115)">
+       transform="translate(103.97885,-217.91034)">
       <rect
          style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
          id="rect788-9-8-6-2-2-6"
@@ -728,9 +814,9 @@
          transform="translate(0.42351322,59.019488)"><tspan
            x="104.92413"
            y="202.09464"
-           id="tspan921"><tspan
+           id="tspan1301"><tspan
              style="font-weight:bold"
-             id="tspan919">GenomicsDBImport</tspan></tspan></text>
+             id="tspan1299">GenomicsDBImport</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
@@ -745,7 +831,7 @@
     </g>
     <g
        id="g57087-9-0"
-       transform="translate(102.01353,-182.93687)">
+       transform="translate(103.97885,-181.37606)">
       <rect
          style="fill:#80b3ff;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
          id="rect788-9-8-6-2-2-6-0"
@@ -763,9 +849,9 @@
          transform="translate(0.42351322,59.019488)"><tspan
            x="104.92413"
            y="202.09464"
-           id="tspan925"><tspan
+           id="tspan1305"><tspan
              style="font-weight:bold"
-             id="tspan923">GenotypeGVCFs</tspan></tspan></text>
+             id="tspan1303">GenotypeGVCFs</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
@@ -780,7 +866,7 @@
     </g>
     <g
        id="g57087-6"
-       transform="matrix(0.6388764,0,0,0.6388764,177.61293,-160.05444)">
+       transform="matrix(0.6388764,0,0,0.6388764,179.57825,-158.49363)">
       <rect
          style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
          id="rect788-9-8-6-2-2-7"
@@ -798,9 +884,9 @@
          transform="translate(0.42351322,59.019488)"><tspan
            x="104.92413"
            y="202.09464"
-           id="tspan929"><tspan
+           id="tspan1309"><tspan
              style="font-weight:bold"
-             id="tspan927">HaplotypeCaller</tspan></tspan></text>
+             id="tspan1307">HaplotypeCaller</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.41748px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
@@ -815,7 +901,7 @@
     </g>
     <g
        id="g57087-6-6"
-       transform="matrix(0.6388764,0,0,0.6388764,176.94545,-127.36252)">
+       transform="matrix(0.6388764,0,0,0.6388764,178.91077,-125.80171)">
       <rect
          style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
          id="rect788-9-8-6-2-2-7-3"
@@ -833,9 +919,9 @@
          transform="translate(3.8148675,59.019488)"><tspan
            x="104.92413"
            y="202.09464"
-           id="tspan933"><tspan
+           id="tspan1313"><tspan
              style="font-weight:bold"
-             id="tspan931">GenomicsDBImport</tspan></tspan></text>
+             id="tspan1311">GenomicsDBImport</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.41748px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
@@ -850,7 +936,7 @@
     </g>
     <g
        id="g57087-6-6-4"
-       transform="matrix(0.6388764,0,0,0.6388764,177.10324,-94.713736)">
+       transform="matrix(0.6388764,0,0,0.6388764,179.06856,-93.152926)">
       <rect
          style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
          id="rect788-9-8-6-2-2-7-3-08"
@@ -868,9 +954,9 @@
          transform="translate(3.8148675,59.019488)"><tspan
            x="104.92413"
            y="202.09464"
-           id="tspan937"><tspan
+           id="tspan1317"><tspan
              style="font-weight:bold"
-             id="tspan935">GenotypeGVCFs</tspan></tspan></text>
+             id="tspan1315">GenotypeGVCFs</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.41748px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
@@ -885,7 +971,7 @@
     </g>
     <g
        id="g57087-6-6-4-5"
-       transform="matrix(0.6388764,0,0,0.6388764,177.10324,-84.798377)">
+       transform="matrix(0.6388764,0,0,0.6388764,179.06856,-83.237567)">
       <rect
          style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
          id="rect788-9-8-6-2-2-7-3-08-6"
@@ -903,9 +989,9 @@
          transform="translate(3.8148675,59.019488)"><tspan
            x="104.92413"
            y="202.09464"
-           id="tspan941"><tspan
+           id="tspan1321"><tspan
              style="font-weight:bold"
-             id="tspan939">GenotypeGVCFs</tspan></tspan></text>
+             id="tspan1319">GenotypeGVCFs</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.41748px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
@@ -920,7 +1006,7 @@
     </g>
     <g
        id="g57087-6-6-4-5-2"
-       transform="matrix(0.6388764,0,0,0.6388764,177.28928,-75.956945)">
+       transform="matrix(0.6388764,0,0,0.6388764,179.2546,-74.396135)">
       <rect
          style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
          id="rect788-9-8-6-2-2-7-3-08-6-7"
@@ -938,9 +1024,9 @@
          transform="translate(3.8148675,59.019488)"><tspan
            x="104.92413"
            y="202.09464"
-           id="tspan945"><tspan
+           id="tspan1325"><tspan
              style="font-weight:bold"
-             id="tspan943">GenotypeGVCFs</tspan></tspan></text>
+             id="tspan1323">GenotypeGVCFs</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.41748px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
@@ -955,7 +1041,7 @@
     </g>
     <g
        id="g57087-6-6-7"
-       transform="matrix(0.6388764,0,0,0.6388764,176.94545,-118.33487)">
+       transform="matrix(0.6388764,0,0,0.6388764,178.91077,-116.77406)">
       <rect
          style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
          id="rect788-9-8-6-2-2-7-3-0"
@@ -973,9 +1059,9 @@
          transform="translate(3.8148675,59.019488)"><tspan
            x="104.92413"
            y="202.09464"
-           id="tspan949"><tspan
+           id="tspan1329"><tspan
              style="font-weight:bold"
-             id="tspan947">GenomicsDBImport</tspan></tspan></text>
+             id="tspan1327">GenomicsDBImport</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.41748px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
@@ -990,7 +1076,7 @@
     </g>
     <g
        id="g57087-6-6-7-1"
-       transform="matrix(0.6388764,0,0,0.6388764,176.94545,-109.51032)">
+       transform="matrix(0.6388764,0,0,0.6388764,178.91077,-107.94951)">
       <rect
          style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
          id="rect788-9-8-6-2-2-7-3-0-9"
@@ -1008,9 +1094,9 @@
          transform="translate(3.8148675,59.019488)"><tspan
            x="104.92413"
            y="202.09464"
-           id="tspan953"><tspan
+           id="tspan1333"><tspan
              style="font-weight:bold"
-             id="tspan951">GenomicsDBImport</tspan></tspan></text>
+             id="tspan1331">GenomicsDBImport</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.41748px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
@@ -1025,7 +1111,7 @@
     </g>
     <g
        id="g57087-6-9"
-       transform="matrix(0.6388764,0,0,0.6388764,177.61293,-151.32482)">
+       transform="matrix(0.6388764,0,0,0.6388764,179.57825,-149.76401)">
       <rect
          style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
          id="rect788-9-8-6-2-2-7-9"
@@ -1043,9 +1129,9 @@
          transform="translate(0.42351322,59.019488)"><tspan
            x="104.92413"
            y="202.09464"
-           id="tspan957"><tspan
+           id="tspan1337"><tspan
              style="font-weight:bold"
-             id="tspan955">HaplotypeCaller</tspan></tspan></text>
+             id="tspan1335">HaplotypeCaller</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.41748px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
@@ -1060,7 +1146,7 @@
     </g>
     <g
        id="g57087-6-9-6"
-       transform="matrix(0.6388764,0,0,0.6388764,177.61293,-142.50322)">
+       transform="matrix(0.6388764,0,0,0.6388764,179.57825,-140.94241)">
       <rect
          style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
          id="rect788-9-8-6-2-2-7-9-7"
@@ -1078,9 +1164,9 @@
          transform="translate(0.42351322,59.019488)"><tspan
            x="104.92413"
            y="202.09464"
-           id="tspan961"><tspan
+           id="tspan1341"><tspan
              style="font-weight:bold"
-             id="tspan959">HaplotypeCaller</tspan></tspan></text>
+             id="tspan1339">HaplotypeCaller</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.41748px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
@@ -1095,12 +1181,12 @@
     </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.475145;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Arrow3-0-5-2-4)"
-       d="m 112.2169,80.877475 v 10.33992"
+       d="m 114.18222,82.438285 v 10.33992"
        id="path2508-4-6-8-9"
        sodipodi:nodetypes="cc" />
     <g
        id="g757"
-       transform="translate(-2.8379826,2.1101606)">
+       transform="translate(-0.87266184,3.6709707)">
       <rect
          style="fill:#ffe680;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
          id="rect788-2-5"
@@ -1121,7 +1207,7 @@
            x="117.49892"
            y="95.170906">Recalibrated <tspan
    style="font-weight:bold"
-   id="tspan54861">Mapped</tspan> reads</tspan></text>
+   id="tspan898">mapped</tspan> reads</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:44.8451;display:inline;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
@@ -1131,28 +1217,29 @@
          transform="translate(10.71343,-21.284754)"><tspan
            x="105.66043"
            y="122.67814"
-           id="tspan965"><tspan
-   style="stroke-width:0.5"
-   id="tspan963">Intermediate output:</tspan><tspan
-   y="122.67814"
-   id="tspan967"> </tspan></tspan><tspan
+           id="tspan1345"><tspan
+             style="stroke-width:0.5"
+             id="tspan1343">Output:
+</tspan></tspan><tspan
            x="105.66043"
            y="127.9698"
-           id="tspan969">Analysis Ready BAM</tspan></text>
+           id="tspan1349"><tspan
+             style="stroke-width:0.5"
+             id="tspan1347">bqsr.bam</tspan></tspan></text>
     </g>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;marker-end:url(#Arrow3)"
-       d="m 66.992535,114.36142 h 8.207981 L 74.577653,13.293591 h 11.500454"
+       d="m 68.957856,115.92223 h 8.207981 L 76.542974,14.854401 h 11.500454"
        id="path56852"
        sodipodi:nodetypes="cccc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.475145;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Arrow3-0-5-2-23)"
-       d="m 34.384803,82.155846 0.07917,14.150912"
+       d="m 36.350124,83.716656 0.07917,14.150912"
        id="path2508-4-6-8-4"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.600001;stroke-linejoin:bevel;marker-end:url(#Arrow3)"
-       d="m 146.85686,101.07389 h 30.5497 l -0.62954,-86.141495 h 9.90905"
+       d="m 148.82218,102.6347 h 30.5497 l -0.62954,-86.141495 h 9.90905"
        id="path998"
        sodipodi:nodetypes="cccc" />
     <text
@@ -1171,112 +1258,112 @@
        x="250.25847"
        y="12.712781"
        id="text4728"
-       transform="translate(36.226573,-3.8528036)"><tspan
+       transform="translate(38.191894,-2.2919935)"><tspan
          x="250.25847"
          y="12.712781"
-         id="tspan973"><tspan
+         id="tspan1353"><tspan
            style="stroke-width:0.6"
-           id="tspan971">
+           id="tspan1351">
 </tspan></tspan><tspan
          x="250.25847"
          y="18.004443"
-         id="tspan977"><tspan
+         id="tspan1357"><tspan
    style="stroke-width:0.6"
-   id="tspan975">Calls variants from</tspan><tspan
+   id="tspan1355">Calls variants from</tspan><tspan
    y="18.004443"
-   id="tspan979"> </tspan></tspan><tspan
+   id="tspan1359"> </tspan></tspan><tspan
          x="250.25847"
          y="23.296104"
-         id="tspan985"><tspan
+         id="tspan1365"><tspan
    style="stroke-width:0.6"
-   id="tspan981">multiple </tspan><tspan
+   id="tspan1361">multiple </tspan><tspan
    style="font-weight:bold"
-   id="tspan983">genomic</tspan><tspan
+   id="tspan1363">genomic</tspan><tspan
    y="23.296104"
-   id="tspan987"> </tspan></tspan><tspan
+   id="tspan1367"> </tspan></tspan><tspan
          x="250.25847"
          y="28.587767"
-         id="tspan991"><tspan
+         id="tspan1371"><tspan
            style="font-weight:bold"
-           id="tspan989">intervals</tspan></tspan></text>
+           id="tspan1369">intervals</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:36.7372;display:inline;fill:#000000;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
        x="250.25847"
        y="12.712781"
        id="text4728-8"
-       transform="translate(37.06188,29.298923)"><tspan
+       transform="translate(39.027201,30.859733)"><tspan
          x="250.25847"
          y="12.712781"
-         id="tspan995"><tspan
+         id="tspan1375"><tspan
            style="stroke-width:0.6"
-           id="tspan993">
+           id="tspan1373">
 </tspan></tspan><tspan
          x="250.25847"
          y="18.004443"
-         id="tspan1001"><tspan
+         id="tspan1381"><tspan
    style="stroke-width:0.6"
-   id="tspan997">Adds </tspan><tspan
+   id="tspan1377">Adds </tspan><tspan
    style="font-weight:bold"
-   id="tspan999">genomic</tspan><tspan
+   id="tspan1379">genomic</tspan><tspan
    y="18.004443"
-   id="tspan1003"> </tspan></tspan><tspan
+   id="tspan1383"> </tspan></tspan><tspan
          x="250.25847"
          y="23.296104"
-         id="tspan1007"><tspan
+         id="tspan1387"><tspan
    style="font-weight:bold"
-   id="tspan1005">intervals </tspan>to<tspan
+   id="tspan1385">intervals </tspan>to<tspan
    y="23.296104"
-   id="tspan1009"> </tspan></tspan><tspan
+   id="tspan1389"> </tspan></tspan><tspan
          x="250.25847"
          y="28.587767"
-         id="tspan1011">database file</tspan></text>
+         id="tspan1391">database file</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:36.7372;display:inline;fill:#000000;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
        x="250.25847"
        y="12.712781"
        id="text4728-8-6"
-       transform="translate(38.084916,59.75033)"><tspan
+       transform="translate(40.050237,61.31114)"><tspan
          x="250.25847"
          y="12.712781"
-         id="tspan1015"><tspan
+         id="tspan1395"><tspan
            style="stroke-width:0.6"
-           id="tspan1013">
+           id="tspan1393">
 </tspan></tspan><tspan
          x="250.25847"
          y="18.004443"
-         id="tspan1021"><tspan
+         id="tspan1401"><tspan
    style="stroke-width:0.6"
-   id="tspan1017">Performs </tspan><tspan
+   id="tspan1397">Performs </tspan><tspan
    style="font-weight:bold"
-   id="tspan1019">joint</tspan><tspan
+   id="tspan1399">joint</tspan><tspan
    y="18.004443"
-   id="tspan1023"> </tspan></tspan><tspan
+   id="tspan1403"> </tspan></tspan><tspan
          x="250.25847"
          y="23.296104"
-         id="tspan1029"><tspan
+         id="tspan1409"><tspan
    style="font-weight:bold"
-   id="tspan1025">genotyping</tspan><tspan
+   id="tspan1405">genotyping</tspan><tspan
    style="stroke-width:0.6"
-   id="tspan1027"> on</tspan><tspan
+   id="tspan1407"> on</tspan><tspan
    y="23.296104"
-   id="tspan1031"> </tspan></tspan><tspan
+   id="tspan1411"> </tspan></tspan><tspan
          x="250.25847"
          y="28.587767"
-         id="tspan1035"><tspan
+         id="tspan1415"><tspan
    style="stroke-width:0.6"
-   id="tspan1033">multiple genomic</tspan><tspan
+   id="tspan1413">multiple genomic</tspan><tspan
    y="28.587767"
-   id="tspan1037"> </tspan></tspan><tspan
+   id="tspan1417"> </tspan></tspan><tspan
          x="250.25847"
          y="33.879429"
-         id="tspan1041"><tspan
+         id="tspan1421"><tspan
            style="stroke-width:0.6"
-           id="tspan1039">intervals</tspan></tspan></text>
+           id="tspan1419">intervals</tspan></tspan></text>
     <g
        id="g8450"
-       transform="translate(22.213199,1.1172257)">
+       transform="translate(24.17852,2.6780358)">
       <path
          style="fill:none;stroke:#000000;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:1.2, 0.600001;stroke-dashoffset:0"
          d="m 237.97022,7.479173 h 7.02787 v 18.288256 h -6.73857"
@@ -1290,7 +1377,7 @@
     </g>
     <g
        id="g8446"
-       transform="translate(22.213199,1.1172257)">
+       transform="translate(24.17852,2.6780358)">
       <path
          style="fill:none;stroke:#000000;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:1.2, 0.600001;stroke-dashoffset:0"
          d="m 241.34107,40.791651 h 7.02787 v 18.288256 h -6.73857"
@@ -1304,7 +1391,7 @@
     </g>
     <g
        id="g8446-2"
-       transform="translate(22.528792,34.653713)">
+       transform="translate(24.494113,36.214523)">
       <path
          style="fill:none;stroke:#000000;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:1.2, 0.600001;stroke-dashoffset:0"
          d="m 241.34107,40.791651 h 7.02787 v 18.288256 h -6.73857"
@@ -1318,17 +1405,17 @@
     </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.475145;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Arrow3-0-5-2-4-9)"
-       d="M 207.78912,23.686017 V 35.706296"
+       d="M 209.75444,25.246827 V 37.267106"
        id="path2508-4-6-8-9-2"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.475145;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Arrow3-0-5-2-4-9-9)"
-       d="M 207.78912,52.857392 V 72.506608"
+       d="M 209.75444,54.418202 V 74.067418"
        id="path2508-4-6-8-9-2-2"
        sodipodi:nodetypes="cc" />
     <g
        id="g57087-9-0-9"
-       transform="translate(102.01353,-152.60704)">
+       transform="translate(103.97885,-151.04623)">
       <rect
          style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
          id="rect788-9-8-6-2-2-6-0-9"
@@ -1346,9 +1433,9 @@
          transform="translate(0.42351322,59.019488)"><tspan
            x="104.92413"
            y="202.09464"
-           id="tspan1045"><tspan
+           id="tspan1425"><tspan
              style="font-weight:bold"
-             id="tspan1043">GatherVcfs</tspan></tspan></text>
+             id="tspan1423">GatherVcfs</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
@@ -1361,34 +1448,76 @@
            x="105.26053"
            y="268.40399">gatk4 4.6.1.0</tspan></text>
     </g>
+    <g
+       id="g57087-9-0-9-0"
+       transform="translate(103.39758,-100.65149)">
+      <rect
+         style="fill:#80b3ff;stroke:#000000;stroke-width:0.6;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect788-9-8-6-2-2-6-0-9-2"
+         width="48.01844"
+         height="20.669172"
+         x="82.347633"
+         y="253.76649"
+         ry="2.4187393" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;white-space:pre;inline-size:52.4073;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:2.4, 0.600001;stroke-dashoffset:0"
+         x="104.92413"
+         y="202.09464"
+         id="text26116-5-0-3-5-5-0-3"
+         transform="translate(1.4226898,57.32895)"><tspan
+           x="104.92413"
+           y="202.09464"
+           id="tspan1429"><tspan
+   style="font-weight:bold"
+   id="tspan1427">VariantRecalibrator +</tspan><tspan
+   y="202.09464"
+   id="tspan1431"> </tspan></tspan><tspan
+           x="104.92413"
+           y="207.3863"
+           id="tspan1435"><tspan
+             style="font-weight:bold"
+             id="tspan1433">ApplyVQSR</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="104.91196"
+         y="271.63336"
+         id="text14304-6-3-4-4-6-4-2-0"><tspan
+           sodipodi:role="line"
+           id="tspan14302-0-1-0-8-5-8-1-9"
+           style="stroke-width:0.5"
+           x="104.91196"
+           y="271.63336">gatk4 4.6.1.0</tspan></text>
+    </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.475145;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Arrow3-0-5-2-4-9-9-1)"
-       d="M 207.78912,89.325214 V 102.70609"
+       d="M 209.75444,90.886024 V 104.2669"
        id="path2508-4-6-8-9-2-2-0"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,7.3782902,-7.6075452)"
+       transform="matrix(0.26458333,0,0,0.26458333,9.343611,-6.0467351)"
        id="text9745"
        style="font-size:16px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;white-space:pre;shape-inside:url(#rect9747);display:inline;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:2.26772;stroke-linejoin:bevel;stroke-dasharray:4.53544, 2.26772;stroke-dashoffset:0"><tspan
          x="963.59277"
          y="53.460899"
-         id="tspan1049"><tspan
+         id="tspan1439"><tspan
            style="font-weight:bold"
-           id="tspan1047">Parallelised processes</tspan></tspan></text>
+           id="tspan1437">Parallelised processes</tspan></tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.475145;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Arrow3-0-5-2-4-94)"
-       d="m 207.78912,118.98684 v 9.53367"
+       d="m 209.75444,120.54765 v 9.53367"
        id="path2508-4-6-8-9-28"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.600001;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 174.21554,12.552287 2.56148,2.380108"
+       d="m 176.18086,14.113097 2.56148,2.380108"
        id="path13268"
        sodipodi:nodetypes="cc" />
     <g
        id="g1812"
-       transform="translate(-1.733108,11.876089)">
+       transform="translate(0.23221276,13.436899)">
       <ellipse
          style="fill:#44aa00;stroke:#225500;stroke-width:0.2;stroke-linejoin:bevel;stroke-dasharray:none"
          id="path670"
@@ -1410,9 +1539,9 @@
     </g>
     <g
        id="g1812-4"
-       transform="translate(176.88354,137.0396)">
+       transform="translate(238.25082,164.79188)">
       <ellipse
-         style="fill:#ff9700;stroke:#ff9337;stroke-width:0.2;stroke-linejoin:bevel;stroke-dasharray:none;fill-opacity:1;stroke-opacity:1"
+         style="fill:#ff9955;fill-opacity:1;stroke:#ff9337;stroke-width:0.2;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
          id="path670-0"
          cx="64.957825"
          cy="7.141655"
@@ -1420,15 +1549,25 @@
          ry="6.6467953" />
       <text
          xml:space="preserve"
-         style="font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel;fill-opacity:1"
-         x="64.87101"
-         y="8.6237335"
+         style="font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linejoin:bevel"
+         x="64.872559"
+         y="8.5002298"
          id="text832-9"><tspan
            sodipodi:role="line"
            id="tspan830-6"
-           style="font-weight:bold;font-size:3.88056px;fill:#000000;stroke:none;stroke-width:0.6;fill-opacity:1"
-           x="64.87101"
-           y="8.6237335">END</tspan></text>
+           style="font-weight:bold;font-size:3.88056px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.6"
+           x="64.872559"
+           y="8.5002298">END</tspan></text>
     </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.475145;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Arrow3-0-5-2-4-94-6)"
+       d="m 209.75443,147.22414 v 5.24476"
+       id="path2508-4-6-8-9-28-4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.475145;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Arrow3-0-5-2-4-94-6-2)"
+       d="m 233.76365,163.44959 12.50773,0"
+       id="path2508-4-6-8-9-28-4-0"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>

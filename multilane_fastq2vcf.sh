@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-SCRIPT_PATH=$(dirname "$(realpath "$0")") #Get script's path to source genericFunctions
-source ${SCRIPT_PATH}/genericFunctions.sh #Import custom functions eg. createOutDir
+SCRIPT_PATH=$(dirname "$(realpath "$0")") #Get script's path to source globalFunctions
+source ${SCRIPT_PATH}/globalFunctions.sh #Import custom functions eg. createOutDir
 exit_value= #Initialise and assign a variable for exit code $? 
 
 while getopts "i:o:r:s:L:h" opt; do

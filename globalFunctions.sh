@@ -26,8 +26,10 @@ checkProgram() {
 
 #Check input directory and reference files
 checkInputArgs(){
-    local required_options=("input_dir" "output_dir" "reference" "dbsnp" "intervals")
-    
+    local required_options=()
+    for args in "$@"; do
+      required_options+=("$args")
+    done
     for option in ${required_options[@]}; do
         if [[ -z ${!option} ]]; then
             echo "ERROR: Missing required arguments!"
