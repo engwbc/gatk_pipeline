@@ -85,9 +85,22 @@ samtools                  1.21                 h50ea8bc_0    bioconda
 
 **Important**: Keep `globalFunctions.sh` in the same directory as `fastq2vcf.sh` or `multilane_fastq2vcf.sh`!
 
+* **FASTQ input**
+
 ```sh
 bash /path/to/fastq2vcf.sh \
 -i /path/to/fastq/folder \
+-o /path/to/output/folder \
+-r /path/to/reference.fasta \
+-s /path/to/dbSNP.vcf.gz \
+-L /path/to/your.interval_list
+```
+
+* **.bam input**
+
+```sh
+bash /path/to/fastq2vcf.sh \
+-b /path/to/bam/file \
 -o /path/to/output/folder \
 -r /path/to/reference.fasta \
 -s /path/to/dbSNP.vcf.gz \
@@ -114,9 +127,11 @@ Make sure the fastq files contain the lane ID (`L00X`) in the filename:
 
 ```sh
 -i : input directory (folder containing fastq files)
--o : output directory (can be a new folder, the script will create one; ensure you have write permissions!)
+-b : [OPTIONAL] start pipeline from a base recalibrated bam file (fast2vcf.sh only)
+-B : [OPTIONAL] convert FASTQ to base recalibrated bam file (fastq2vcf.sh only)
+-o : output directory. This can be a new folder, the script will create one; ensure you have write permissions!
 -r : reference genome (.fasta file)
--s : database of known polymorphic sites
+-s : database of known polymorphic sites (.vcf file)
 -L : genome interval list (can be VCF, BED or .interval_list)
 ```
 
