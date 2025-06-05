@@ -3,11 +3,13 @@
 1. [Introduction](#introduction)
 2. [Requirements](#requirements)
 3. [Usage](#usage)
-    * [Quick download](https://github.com/engwbc/gatk_pipeline/releases/download/1.0.0/gatk_pipeline_v1.0.0.tar.gz)
-    * [Main script](#main-script)
-    * [Multi-lane samples](#multi-lane-samples)
-    * [Variant filtering](#variant-filtering)
-    * [Change notes](https://github.com/engwbc/gatk_pipeline/releases)
+    1. [Quick download](https://github.com/engwbc/gatk_pipeline/releases/download/1.0.0/gatk_pipeline_v1.0.0.tar.gz)
+    1. [Main script](#main-script)
+    1. [Multi-lane samples](#multi-lane-samples)
+    1. **Variant filtering**
+        * [VQSR](#variant-filtering-vqsr)
+        * [Hard-filter](#variant-filtering-hard-filter)
+    1. [Change notes](https://github.com/engwbc/gatk_pipeline/releases)
 4. [Process](#steps)
 5. [Future Plans](#future-plans)
 
@@ -26,7 +28,7 @@ In brief, the pipeline converts raw, unmapped sequencing data from FASTQ files i
 As indicated in the overview schematic, the pipeline utilises CPU parallelisation to improve computing speed by splitting genomic regions into smaller intervals and running them as multiple processes simultaneously. I found that the pipeline runs faster, reducing total processing time by approximately 48% on average across various runs (Figure 1), compared to a non-parallelised pipeline. However, these savings will depend on the complexity of your sample, your CPU speed, and system load while running the pipeline.
 
 ![runtime_plot](misc/runtime_plot.png)
-*Figure 1: Comparison of walltime in minutes between normal and parallelised workflows for different types samples with percentage change indicated.  Multilane WGS 30X Human refers to a sample sequenced with 4 lanes and converted to VCF with `multilane_fastq2vcf.sh`. 1/20 and 1/50 denote fractionated sequences obtained by running `seqkit split2` in which the sample was split into 20 parts and 50 parts, respectively.*
+*Figure 1: Comparison of walltime in minutes between normal and parallelised workflows for different types samples with percentage change indicated.  Multilane WES refers to a human sample sequenced with 4 lanes and converted to VCF using `multilane_fastq2vcf.sh`. 1/20 and 1/50 denote fractionated sequences obtained by `seqkit split2` to simulate a genome split into 20 and 50 parts, respectively.*
 
 Most tasks utilise multithreading by default (e.g., `HaplotypeCaller` uses 2 threads for IntelHMM), here I explicitly refer to running tasks **in tandem** by assigning a specific amount of CPU cores. For instance, `HaplotypeCaller` is set to run simultaneously three times (`parallel --jobs 3`), by default this roughly equates to using [3 CPU cores per job](https://www.gnu.org/software/parallel/parallel_tutorial.html#number-of-simultaneous-jobs). As each CPU core typically contains 2 threads each, this corresponds to using 6 threads for `HaplotypeCaller`, therefore the system will use approximately 3 cores/6 threads in total.
 
@@ -139,7 +141,7 @@ Make sure the fastq files contain the lane ID (`L00X`) in the filename:
 
 * Interval file formatting, refer to [GATK - Intervals and interval lists](https://gatk.broadinstitute.org/hc/en-us/articles/360035531852-Intervals-and-interval-lists).
 
-### Variant Filtering
+### Variant Filtering (VQSR)
 
 **For human sequences.** VQSR may not work well for organisms lacking known high-quality variant sites. You may need to opt for hard-filtering using `gatk VariantFiltration`.
 
@@ -173,6 +175,21 @@ bash /path/to/vcf_VariantRecalibrator.sh \
 -T /path/to/1000G_phase1.snps.high_confidence.hg38.vcf.gz \
 -M /path/to/Mills_and_1000G_gold_standard.indels.hg38.vcf.gz \
 -s /path/to/dbsnp138.vcf.gz
+```
+
+### Variant Filtering (Hard-filter)
+
+* Suitable for gene panels, single exomes or organisms lacking high-quality known variant sites.
+
+The script currently uses the default GATK `VariantFiltration` settings as suggested by the Broad Institute [as a starting point](https://gatk.broadinstitute.org/hc/en-us/articles/360035531112--How-to-Filter-variants-either-with-VQSR-or-by-hard-filtering#2).
+
+**Usage:**
+
+```sh
+bash /path/to/vcf_HardFilter.sh \
+-i /path/to/unfiltered_vcf.gz \
+-o /path/to/output/folder \
+-r /path/to/reference.fasta
 ```
 
 [Back to top](#contents)
@@ -227,8 +244,6 @@ ___
 ## System and Samples Tested
 
 The pipeline was tested on a system containing an Intel Xeon E5-2620 v4 @ 2.10GHz (8 cores, 16 threads), 64 GB RAM, 8TB HDD and Rocky Linux 8.10 (RHEL).
-
-Paired-end test sequences with average read-depth of 30X and obtained from an Illumina MiSeq system.
 
 Human GRCh38 `Homo_sapiens_assembly38.fasta` and `Homo_sapiens_assembly38.dbsnp138.vcf` were used as the reference genome and SNP database, respectively. Scatter intervals for splitting genomic regions during variant calling were used according to the intervals specified in `wgs_calling_regions.hg38.interval_list`. These files were collectively obtained from the [gcp-public-data--broad-references bucket](https://console.cloud.google.com/storage/browser/gcp-public-data--broad-references/hg38/v0).
 
