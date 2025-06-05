@@ -5,7 +5,7 @@ source ${SCRIPT_PATH}/globalFunctions.sh #Import custom functions eg. createOutD
 exit_value= # Assign a variable for exit code $? 
 
 output_as_bam=false #Initialise variable for only obtaining .bam file
-
+# TO DO: add option to set scatter interval
 while getopts "i:o:b:r:s:L:Bh" opt; do
     case $opt in
         i) input_dir="$OPTARG" ;;    #/path/to/fastq/folder
@@ -52,14 +52,16 @@ Output directory: ${output_dir}\n"
 # Initiate genomic region splitting for HaplotypeCaller
 # this is done once per run as intervals can be reused
 split_int_dir=${output_dir}/tmp
-SCATTER_COUNT=24
+SCATTER_COUNT=36 #for WES, 24 intervals was still too large for GenomicsDB
 createTmpDir $split_int_dir
 echo "Running SplitIntervals..."
 gatk SplitIntervals \
     -R ${reference} \
     -L ${intervals} \
     --scatter-count ${SCATTER_COUNT} \
+    --interval-padding 1000 \
     -O ${split_int_dir}
+#added -interval-padding to prevent cross-interval variants from being cut off
 exit_value=$? #get gatk exit code
 checkExitStatus "SplitIntervals" $exit_value #if exit code = 0 - success, else end script
 scattered_intervals=()
@@ -104,7 +106,7 @@ ApplyHaplotypeCaller() {
             --native-pair-hmm-threads 2
     }
     export -f run_HaplotypeCaller
-    parallel --eta --jobs 3 run_HaplotypeCaller ::: "${scattered_intervals[@]}"
+    parallel --eta --jobs 3 --halt soon,fail=1 run_HaplotypeCaller ::: "${scattered_intervals[@]}"
     checkExitStatus "HaplotypeCaller" $?
 }
 
@@ -127,9 +129,10 @@ ApplyGenomicsDBImport() {
         exit 1
     fi    
     echo "[INFO] Running GenomicsDBImport"
-    #need to create separate genDB folder for each interval... so ${output_dir}/genoDB/${interval}
-    #based on NIH BioWulf benchmarks, increasing RAM does not improve performance
+    #based on NIH BioWulf benchmarks, increasing RAM did not improve performance - this is capped to 2GB 
     #Sample GVCFs are compiled into a map file.
+    # High memory issue: https://github.com/broadinstitute/gatk/issues/7968
+    # Using the following setting greatly decreased compilation time and memory usage (reduced from >3 hours to ~2 minutes and no RAM overflow!)
     export output_dir sample_name
     run_GenomicsDBImport() {
         i=$1
@@ -138,11 +141,12 @@ ApplyGenomicsDBImport() {
             --genomicsdb-workspace-path ${output_dir}/tmp/${sample_name}_${interval_id} \
             --sample-name-map ${output_dir}/${sample_name}.map \
             --tmp-dir ${output_dir}/tmp \
-            --max-num-intervals-to-import-in-parallel 3 \
+            --merge-input-intervals \
+            --bypass-feature-reader \
             -L ${i}
     }
     export -f run_GenomicsDBImport
-    parallel --eta --jobs 3 run_GenomicsDBImport ::: ${scattered_intervals[@]}
+    parallel --eta --jobs 3 --halt soon,fail=1 run_GenomicsDBImport ::: ${scattered_intervals[@]}
     checkExitStatus "GenomicsDBImport" $?
 }
 
@@ -159,7 +163,7 @@ ApplyGenotypeGVCFs() {
             -O ${output_dir}/${sample_name}_${interval_id}.vcf.gz
     }
     export -f run_GenotypeGVCFs
-    parallel --eta --jobs 3 run_GenotypeGVCFs ::: ${scattered_intervals[@]}
+    parallel --eta --jobs 3 --halt soon,fail=1 run_GenotypeGVCFs ::: ${scattered_intervals[@]}
     checkExitStatus "GenotypeGVCFs" $?
 }
 
@@ -168,7 +172,7 @@ ApplygatherVCFs(){
     #init variable to store list of scattered GVCFs
     gather_inputs=""
     #Looping to append scattered GVCFs to gather_inputs if the file is found 
-    for i in $(seq -w 0000 0023); do
+    for i in $(seq -w 0000 $(printf "%04d" $((SCATTER_COUNT-1)))); do
         gather_inputs+="I=${output_dir}/${sample_name}_${i}.vcf.gz "
     done
 
@@ -202,6 +206,14 @@ removeTempFiles() {
         else
             echo "[WARNING] Could not find: $file"
         fi
+    done
+}
+
+removeTempVCF(){
+    for i in $(seq -w 0000 $(printf "%04d" $((SCATTER_COUNT-1)))); do
+        scattered_vcf=${output_dir}/${sample_name}_${i}.vcf.gz
+        scattered_vcf_index=${output_dir}/${sample_name}_${i}.vcf.gz.tbi
+        removeTempFiles ${scattered_vcf} ${scattered_vcf_index}
     done
 }
 
@@ -249,17 +261,17 @@ workflowMain() {
 
             echo "Running fastp for adapter trimming and read QC..."
             fastp \
-            -i ${fastq1} \
-            -I ${fastq2} \
-            -o ${QC_DIR}/${sample_name}_qc_1.fq.gz \
-            -O ${QC_DIR}/${sample_name}_qc_2.fq.gz \
-            -h ${QC_DIR}/${sample_name}_qc.html \
-            -j ${QC_DIR}/${sample_name}_qc.json \
-            --thread 4
+                -i ${fastq1} \
+                -I ${fastq2} \
+                -o ${QC_DIR}/${sample_name}_qc_1.fq.gz \
+                -O ${QC_DIR}/${sample_name}_qc_2.fq.gz \
+                -h ${QC_DIR}/${sample_name}_qc.html \
+                -j ${QC_DIR}/${sample_name}_qc.json \
+                --thread 4
             #CPU usage: peaks at ~40% on 4 threads (Xeon @2.1Ghz)
             exit_value=$?
             checkExitStatus "fastp" $exit_value
-            echo "[INFO] Please check fastp output with multiqc!"
+            echo "[INFO] Please check fastp output with multiqc or fastQC!"
 
             fastq1_qc=${QC_DIR}/${sample_name}_qc_1.fq.gz
             fastq2_qc=${QC_DIR}/${sample_name}_qc_2.fq.gz
@@ -361,12 +373,8 @@ workflowMain() {
             # Remove intermediate files
             removeTempFiles ${sortedMkdup_bam} ${sortedMkdup_bam}.bai ${sorted_bam} ${fastq1_qc} ${fastq2_qc}
             # Remove scattered vcfs and their indices 
-            for i in $(seq -w 0000 0023); do
-                scattered_vcf=${output_dir}/${sample_name}_${i}.vcf.gz
-                scattered_vcf_index=${output_dir}/${sample_name}_${i}.vcf.gz.tbi
-                removeTempFiles ${scattered_vcf} ${scattered_vcf_index}
-            done
-            
+            removeTempVCF
+            rm -r ${haplo_outputfolder}
         done < <(find ${input_dir} -maxdepth 1 -type f \( -name "*_1.fq.gz" -o -name "*_1.fastq.gz" \))
     elif [[ -n "${bamFile}" ]]; then
         # If option -b is given: this code block is run.
@@ -400,11 +408,8 @@ workflowMain() {
         ApplygatherVCFs
 
         # Remove scattered vcfs and index files
-        for i in $(seq -w 0000 0023); do
-            scattered_vcf=${output_dir}/${sample_name}_${i}.vcf.gz
-            scattered_vcf_index=${output_dir}/${sample_name}_${i}.vcf.gz.tbi
-            removeTempFiles ${scattered_vcf} ${scattered_vcf_index}
-        done
+        removeTempVCF
+        rm -r ${haplo_outputfolder}
     else
         echo "[ERROR] No valid input provided!"
         exit 1
@@ -413,7 +418,6 @@ workflowMain() {
 
 # Run pipeline
 workflowMain
-rm -r ${haplo_outputfolder}
 rm -r ${output_dir}/tmp
 
 #End logging

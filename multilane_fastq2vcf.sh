@@ -265,10 +265,11 @@ run_GenomicsDBImport(){
     i=$1
     interval_id=$(basename "$i" | cut -d'-' -f1)
     gatk --java-options "-Xmx2g -Xms2g -XX:ParallelGCThreads=2" GenomicsDBImport \
-        --genomicsdb-workspace-path ${output_dir}/tmp/${interval_id} \
+        --genomicsdb-workspace-path ${output_dir}/tmp/${sample_name}_${interval_id} \
         --sample-name-map ${output_dir}/${sample_name}.map \
         --tmp-dir ${output_dir}/tmp \
-        --max-num-intervals-to-import-in-parallel 3 \
+        --merge-input-intervals \
+        --bypass-feature-reader \
         -L ${i}
 }
 export -f run_GenomicsDBImport 
